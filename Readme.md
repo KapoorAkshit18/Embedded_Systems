@@ -1,8 +1,7 @@
-# 📚 Robotics and Embedded Systems Study Guide
+# 📚 Embedded Systems 
 
-Welcome to the **Robotics and Embedded Systems** study guide! This document covers key concepts, components, programming techniques, and communication protocols used in embedded projects with a special focus on **Arduino**, sensors, motors, and communication interfaces.
+Welcome to the ** Embedded Systems** study guide! This document covers key concepts, components, programming techniques, and communication protocols used in embedded projects with a special focus on **Arduino**, sensors, motors, and communication interfaces learnt during the Corizo Internship.
 
-Whether you're preparing for an exam, building projects, or exploring new concepts, this guide will walk you through everything you need to know in an organized and approachable way.
 
 ---
 
