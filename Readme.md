@@ -1,6 +1,6 @@
 # 📚 Embedded Systems 
 
-Welcome to the ** Embedded Systems** study guide! This document covers key concepts, components, programming techniques, and communication protocols used in embedded projects with a special focus on **Arduino**, sensors, motors, and communication interfaces learnt during the Corizo Internship.
+Welcome to the **Embedded Systems**  study guide! This document covers key concepts, components, programming techniques, and communication protocols used in embedded projects with a special focus on **Arduino UNO and IDE**, sensors, motors, and communication interfaces learnt during the Corizo Internship.
 
 
 ---
