@@ -130,13 +130,11 @@ Welcome to the **Embedded Systems**  study guide! This document covers key conce
 | Light Following Robot | IR/LDR sensors, motors |
 | Motion Alert System | PIR sensor, servo motor |
 
-### Resume Essentials
-| Section | What to Include |
-|------|------|
-| Personal Details | Name, contact info, LinkedIn |
+
+| Personal Details |Akshit Kapoor, 8825080319 |
 | Skills | Embedded systems, programming |
-| Projects | Tools used, results, conclusions |
-| Goals | Short and long term |
+| Projects | Tinkercad, Arduino IDE, Debugging, Embedded Engineer |
+| Goals |Complete the projects in real-hardware and to get advanced with FPGA and RISCV Devlopment  |
 
 ---
 
@@ -151,4 +149,7 @@ Welcome to the **Embedded Systems**  study guide! This document covers key conce
 
 ---
 
+## Acknowledgements:  
+Rahul Sir and Corizo team.  
 
+---
