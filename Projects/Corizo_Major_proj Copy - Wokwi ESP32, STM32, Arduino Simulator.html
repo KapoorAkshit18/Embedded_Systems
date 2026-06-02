@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://wokwi.com/projects/397025574233890817 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-emotion="css-global" data-s="">html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;box-sizing:border-box;-webkit-text-size-adjust:100%;}*,*::before,*::after{box-sizing:inherit;}strong,b{font-weight:700;}body{margin:0;color:#fff;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;background-color:#121212;}@media print{body{background-color:#fff;}}body::backdrop{background-color:#121212;}</style><style data-emotion="css zf0iqh 5kthed 126e75q u0g51i 9hblc8 1vv51b1 vubbuv 9q40pm 6ci2yv 1ynyhby 1yeoas6 1tanlhh 7zja2y 1ohvc2h" data-s="">.css-zf0iqh{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;min-height:100vh;}.css-5kthed{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;border-radius:4px;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);}.css-5kthed .MuiButtonGroup-grouped{min-width:40px;box-shadow:none;}.css-5kthed .MuiButtonGroup-grouped:hover{box-shadow:none;}.css-5kthed .MuiButtonGroup-firstButton,.css-5kthed .MuiButtonGroup-middleButton{border-top-right-radius:0;border-bottom-right-radius:0;border-right:1px solid #bdbdbd;border-color:#42a5f5;}.css-5kthed .MuiButtonGroup-firstButton.Mui-disabled,.css-5kthed .MuiButtonGroup-middleButton.Mui-disabled{border-right:1px solid rgba(255, 255, 255, 0.3);}.css-5kthed .MuiButtonGroup-lastButton,.css-5kthed .MuiButtonGroup-middleButton{border-top-left-radius:0;border-bottom-left-radius:0;}.css-126e75q{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.8125rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:4px 10px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:rgba(0, 0, 0, 0.87);background-color:#90caf9;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);color:white;background-color:#2196f3;}.css-126e75q::-moz-focus-inner{border-style:none;}.css-126e75q.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-126e75q{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-126e75q:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#42a5f5;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-126e75q:hover{background-color:#90caf9;}}.css-126e75q:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-126e75q.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-126e75q.Mui-disabled{color:rgba(255, 255, 255, 0.3);box-shadow:none;background-color:rgba(255, 255, 255, 0.12);}.css-u0g51i{display:inherit;margin-right:8px;margin-left:-2px;}.css-u0g51i>*:nth-of-type(1){font-size:18px;}@media (min-width:0px){.css-9hblc8{display:none;}}@media (min-width:600px){.css-9hblc8{display:initial;}}.css-1vv51b1{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.8125rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:4px 10px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:rgba(0, 0, 0, 0.87);background-color:#90caf9;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);color:white;background-color:#2196f3;min-width:28px;padding:4px 0;}.css-1vv51b1::-moz-focus-inner{border-style:none;}.css-1vv51b1.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-1vv51b1{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-1vv51b1:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#42a5f5;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-1vv51b1:hover{background-color:#90caf9;}}.css-1vv51b1:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-1vv51b1.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-1vv51b1.Mui-disabled{color:rgba(255, 255, 255, 0.3);box-shadow:none;background-color:rgba(255, 255, 255, 0.12);}.css-vubbuv{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:1.5rem;}.css-9q40pm{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.8125rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:4px 10px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:rgba(0, 0, 0, 0.87);background-color:#90caf9;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);color:white;background-color:#2196f3;}.css-9q40pm::-moz-focus-inner{border-style:none;}.css-9q40pm.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-9q40pm{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-9q40pm:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#42a5f5;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-9q40pm:hover{background-color:#90caf9;}}.css-9q40pm:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-9q40pm.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-9q40pm.Mui-disabled{color:rgba(255, 255, 255, 0.3);box-shadow:none;background-color:rgba(255, 255, 255, 0.12);}@media (min-width:0px){.css-9q40pm{display:none;}}@media (min-width:600px){.css-9q40pm{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}}.css-6ci2yv{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:#fff;-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;padding:12px;font-size:1.75rem;}.css-6ci2yv::-moz-focus-inner{border-style:none;}.css-6ci2yv.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-6ci2yv{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-6ci2yv:hover{background-color:rgba(255, 255, 255, 0.08);}@media (hover: none){.css-6ci2yv:hover{background-color:transparent;}}.css-6ci2yv.Mui-disabled{background-color:transparent;color:rgba(255, 255, 255, 0.3);}.css-1ynyhby{margin:8px;}.css-1yeoas6{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-height:36px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:50%;padding:0;min-width:0;width:40px;height:40px;z-index:1050;box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);color:rgba(0, 0, 0, 0.87);background-color:#e0e0e0;background-color:#43a047;color:white;}.css-1yeoas6::-moz-focus-inner{border-style:none;}.css-1yeoas6.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-1yeoas6{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-1yeoas6:active{box-shadow:0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);}.css-1yeoas6:hover{background-color:#f5f5f5;-webkit-text-decoration:none;text-decoration:none;}@media (hover: none){.css-1yeoas6:hover{background-color:#e0e0e0;}}.css-1yeoas6.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-1yeoas6.Mui-disabled{color:rgba(255, 255, 255, 0.3);box-shadow:none;background-color:rgba(255, 255, 255, 0.12);}.css-1yeoas6:hover{background-color:#388e3c;}.css-1tanlhh{margin-top:8px;margin-bottom:8px;margin-right:8px;}.css-7zja2y{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-height:36px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:50%;padding:0;min-width:0;width:40px;height:40px;z-index:1050;box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);color:rgba(0, 0, 0, 0.87);background-color:#e0e0e0;background:#1565c0;color:white;}.css-7zja2y::-moz-focus-inner{border-style:none;}.css-7zja2y.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-7zja2y{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-7zja2y:active{box-shadow:0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);}.css-7zja2y:hover{background-color:#f5f5f5;-webkit-text-decoration:none;text-decoration:none;}@media (hover: none){.css-7zja2y:hover{background-color:#e0e0e0;}}.css-7zja2y.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-7zja2y.Mui-disabled{color:rgba(255, 255, 255, 0.3);box-shadow:none;background-color:rgba(255, 255, 255, 0.12);}.css-7zja2y:hover{background:#0d47a1;}.css-1ohvc2h{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-height:36px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:50%;padding:0;min-width:0;width:40px;height:40px;z-index:1050;box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);color:rgba(0, 0, 0, 0.87);background-color:#e0e0e0;background:#757575;color:white;}.css-1ohvc2h::-moz-focus-inner{border-style:none;}.css-1ohvc2h.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-1ohvc2h{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-1ohvc2h:active{box-shadow:0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);}.css-1ohvc2h:hover{background-color:#f5f5f5;-webkit-text-decoration:none;text-decoration:none;}@media (hover: none){.css-1ohvc2h:hover{background-color:#e0e0e0;}}.css-1ohvc2h.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-1ohvc2h.Mui-disabled{color:rgba(255, 255, 255, 0.3);box-shadow:none;background-color:rgba(255, 255, 255, 0.12);}.css-1ohvc2h:hover{background:#616161;}</style><style data-emotion="css" data-s=""></style><meta name="viewport" content="width=device-width"><link href="https://wokwi.com/favicon-white.png" rel="icon" media="(prefers-color-scheme: dark)"><link href="https://wokwi.com/favicon.png" rel="icon" media="(prefers-color-scheme: light)"><meta name="twitter:site" content="@WokwiMakes"><meta name="twitter:card" content="summary_large_image"><title>Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator</title><meta property="og:title" content="Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator"><meta property="og:description" content="Run IoT and embedded projects in your browser: ESP32, STM32, Arduino, Pi Pico, and more. No installation required!"><meta property="og:image" content="https://thumbs.wokwi.com/projects/397025574233890817/social/1714891943090.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><link rel="alternate" type="application/json+oembed" href="https://wokwi.com/api/oembed?url=https%3A%2F%2Fwokwi.com%2Fshare%2F397025574233890817&amp;t=1714891943090}" title="Wokwi oEmbed provider"><meta name="next-head-count" content="14"><meta name="theme-color" content="#90caf9"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link rel="preload" href="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/cc97500f1ef959df.css" as="style"><link rel="stylesheet" href="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/cc97500f1ef959df.css" data-n-g=""><link rel="preload" href="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/e01c0e2873f7c83b.css" as="style"><link rel="stylesheet" href="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/e01c0e2873f7c83b.css" data-n-p=""><noscript data-n-css=""></noscript><script defer="" nomodule="" src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/polyfills-c67a75d1b6f99dc8.js.download"></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/webpack-7191a112228ee88e.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/framework-128cfde67f3541f2.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/main-e9098eabbe0ff0bf.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/_app-5ce3ec2c6af28682.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/b2e984c5-ca39afa8231e61d4.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/8783-56db0d61ed316a80.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/3728-0fdd1d0ae22b5602.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/7043-d41ba89f32cedb3f.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/2759-c4b587c6d01d0014.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/7918-4f56b9b4b3d08c64.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/5591-35d2b55a1d48c2e4.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/7401-d43c9b6c63660920.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/5929-a92003fa85026703.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/3344-61b8e16996e7f9c7.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/5637-9650863cd644c304.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/9912-165de7d958c4fc32.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/3764-6378acdaf83bcc60.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/7746-cc23ce235ed59002.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/2761-caed59a1a39aa473.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/5649-b8b9dcefc6934b6b.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/3395-51a6ed1c5a5ffe79.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/2011-c0be784af26d0e65.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/9610-789280a10f69bf5a.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/7665-5d3c757c44738655.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/[projectId]-9aee5adfd2b5c5e7.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/_buildManifest.js.download" defer=""></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/_ssgManifest.js.download" defer=""></script><style data-href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxM.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc-.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style><style data-styled="active" data-styled-version="5.3.10"></style><link as="script" rel="prefetch" href="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/7448-a970ff9a039c5b6c.js.download"><link as="script" rel="prefetch" href="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/index-7112ae727fbff1a3.js.download"><script async="async" type="text/javascript" src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/editor.main.js.download"></script><link rel="stylesheet" type="text/css" data-name="vs/editor/editor.main" href="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/editor.main.css"><script async="async" type="text/javascript" src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/editor.main.nls.js.download"></script><style type="text/css" media="screen" class="monaco-colors">.codicon-add:before { content: '\ea60'; }
+.codicon-plus:before { content: '\ea60'; }
+.codicon-gist-new:before { content: '\ea60'; }
+.codicon-repo-create:before { content: '\ea60'; }
+.codicon-lightbulb:before { content: '\ea61'; }
+.codicon-light-bulb:before { content: '\ea61'; }
+.codicon-repo:before { content: '\ea62'; }
+.codicon-repo-delete:before { content: '\ea62'; }
+.codicon-gist-fork:before { content: '\ea63'; }
+.codicon-repo-forked:before { content: '\ea63'; }
+.codicon-git-pull-request:before { content: '\ea64'; }
+.codicon-git-pull-request-abandoned:before { content: '\ea64'; }
+.codicon-record-keys:before { content: '\ea65'; }
+.codicon-keyboard:before { content: '\ea65'; }
+.codicon-tag:before { content: '\ea66'; }
+.codicon-git-pull-request-label:before { content: '\ea66'; }
+.codicon-tag-add:before { content: '\ea66'; }
+.codicon-tag-remove:before { content: '\ea66'; }
+.codicon-person:before { content: '\ea67'; }
+.codicon-person-follow:before { content: '\ea67'; }
+.codicon-person-outline:before { content: '\ea67'; }
+.codicon-person-filled:before { content: '\ea67'; }
+.codicon-git-branch:before { content: '\ea68'; }
+.codicon-git-branch-create:before { content: '\ea68'; }
+.codicon-git-branch-delete:before { content: '\ea68'; }
+.codicon-source-control:before { content: '\ea68'; }
+.codicon-mirror:before { content: '\ea69'; }
+.codicon-mirror-public:before { content: '\ea69'; }
+.codicon-star:before { content: '\ea6a'; }
+.codicon-star-add:before { content: '\ea6a'; }
+.codicon-star-delete:before { content: '\ea6a'; }
+.codicon-star-empty:before { content: '\ea6a'; }
+.codicon-comment:before { content: '\ea6b'; }
+.codicon-comment-add:before { content: '\ea6b'; }
+.codicon-alert:before { content: '\ea6c'; }
+.codicon-warning:before { content: '\ea6c'; }
+.codicon-search:before { content: '\ea6d'; }
+.codicon-search-save:before { content: '\ea6d'; }
+.codicon-log-out:before { content: '\ea6e'; }
+.codicon-sign-out:before { content: '\ea6e'; }
+.codicon-log-in:before { content: '\ea6f'; }
+.codicon-sign-in:before { content: '\ea6f'; }
+.codicon-eye:before { content: '\ea70'; }
+.codicon-eye-unwatch:before { content: '\ea70'; }
+.codicon-eye-watch:before { content: '\ea70'; }
+.codicon-circle-filled:before { content: '\ea71'; }
+.codicon-primitive-dot:before { content: '\ea71'; }
+.codicon-close-dirty:before { content: '\ea71'; }
+.codicon-debug-breakpoint:before { content: '\ea71'; }
+.codicon-debug-breakpoint-disabled:before { content: '\ea71'; }
+.codicon-debug-hint:before { content: '\ea71'; }
+.codicon-terminal-decoration-success:before { content: '\ea71'; }
+.codicon-primitive-square:before { content: '\ea72'; }
+.codicon-edit:before { content: '\ea73'; }
+.codicon-pencil:before { content: '\ea73'; }
+.codicon-info:before { content: '\ea74'; }
+.codicon-issue-opened:before { content: '\ea74'; }
+.codicon-gist-private:before { content: '\ea75'; }
+.codicon-git-fork-private:before { content: '\ea75'; }
+.codicon-lock:before { content: '\ea75'; }
+.codicon-mirror-private:before { content: '\ea75'; }
+.codicon-close:before { content: '\ea76'; }
+.codicon-remove-close:before { content: '\ea76'; }
+.codicon-x:before { content: '\ea76'; }
+.codicon-repo-sync:before { content: '\ea77'; }
+.codicon-sync:before { content: '\ea77'; }
+.codicon-clone:before { content: '\ea78'; }
+.codicon-desktop-download:before { content: '\ea78'; }
+.codicon-beaker:before { content: '\ea79'; }
+.codicon-microscope:before { content: '\ea79'; }
+.codicon-vm:before { content: '\ea7a'; }
+.codicon-device-desktop:before { content: '\ea7a'; }
+.codicon-file:before { content: '\ea7b'; }
+.codicon-file-text:before { content: '\ea7b'; }
+.codicon-more:before { content: '\ea7c'; }
+.codicon-ellipsis:before { content: '\ea7c'; }
+.codicon-kebab-horizontal:before { content: '\ea7c'; }
+.codicon-mail-reply:before { content: '\ea7d'; }
+.codicon-reply:before { content: '\ea7d'; }
+.codicon-organization:before { content: '\ea7e'; }
+.codicon-organization-filled:before { content: '\ea7e'; }
+.codicon-organization-outline:before { content: '\ea7e'; }
+.codicon-new-file:before { content: '\ea7f'; }
+.codicon-file-add:before { content: '\ea7f'; }
+.codicon-new-folder:before { content: '\ea80'; }
+.codicon-file-directory-create:before { content: '\ea80'; }
+.codicon-trash:before { content: '\ea81'; }
+.codicon-trashcan:before { content: '\ea81'; }
+.codicon-history:before { content: '\ea82'; }
+.codicon-clock:before { content: '\ea82'; }
+.codicon-folder:before { content: '\ea83'; }
+.codicon-file-directory:before { content: '\ea83'; }
+.codicon-symbol-folder:before { content: '\ea83'; }
+.codicon-logo-github:before { content: '\ea84'; }
+.codicon-mark-github:before { content: '\ea84'; }
+.codicon-github:before { content: '\ea84'; }
+.codicon-terminal:before { content: '\ea85'; }
+.codicon-console:before { content: '\ea85'; }
+.codicon-repl:before { content: '\ea85'; }
+.codicon-zap:before { content: '\ea86'; }
+.codicon-symbol-event:before { content: '\ea86'; }
+.codicon-error:before { content: '\ea87'; }
+.codicon-stop:before { content: '\ea87'; }
+.codicon-variable:before { content: '\ea88'; }
+.codicon-symbol-variable:before { content: '\ea88'; }
+.codicon-array:before { content: '\ea8a'; }
+.codicon-symbol-array:before { content: '\ea8a'; }
+.codicon-symbol-module:before { content: '\ea8b'; }
+.codicon-symbol-package:before { content: '\ea8b'; }
+.codicon-symbol-namespace:before { content: '\ea8b'; }
+.codicon-symbol-object:before { content: '\ea8b'; }
+.codicon-symbol-method:before { content: '\ea8c'; }
+.codicon-symbol-function:before { content: '\ea8c'; }
+.codicon-symbol-constructor:before { content: '\ea8c'; }
+.codicon-symbol-boolean:before { content: '\ea8f'; }
+.codicon-symbol-null:before { content: '\ea8f'; }
+.codicon-symbol-numeric:before { content: '\ea90'; }
+.codicon-symbol-number:before { content: '\ea90'; }
+.codicon-symbol-structure:before { content: '\ea91'; }
+.codicon-symbol-struct:before { content: '\ea91'; }
+.codicon-symbol-parameter:before { content: '\ea92'; }
+.codicon-symbol-type-parameter:before { content: '\ea92'; }
+.codicon-symbol-key:before { content: '\ea93'; }
+.codicon-symbol-text:before { content: '\ea93'; }
+.codicon-symbol-reference:before { content: '\ea94'; }
+.codicon-go-to-file:before { content: '\ea94'; }
+.codicon-symbol-enum:before { content: '\ea95'; }
+.codicon-symbol-value:before { content: '\ea95'; }
+.codicon-symbol-ruler:before { content: '\ea96'; }
+.codicon-symbol-unit:before { content: '\ea96'; }
+.codicon-activate-breakpoints:before { content: '\ea97'; }
+.codicon-archive:before { content: '\ea98'; }
+.codicon-arrow-both:before { content: '\ea99'; }
+.codicon-arrow-down:before { content: '\ea9a'; }
+.codicon-arrow-left:before { content: '\ea9b'; }
+.codicon-arrow-right:before { content: '\ea9c'; }
+.codicon-arrow-small-down:before { content: '\ea9d'; }
+.codicon-arrow-small-left:before { content: '\ea9e'; }
+.codicon-arrow-small-right:before { content: '\ea9f'; }
+.codicon-arrow-small-up:before { content: '\eaa0'; }
+.codicon-arrow-up:before { content: '\eaa1'; }
+.codicon-bell:before { content: '\eaa2'; }
+.codicon-bold:before { content: '\eaa3'; }
+.codicon-book:before { content: '\eaa4'; }
+.codicon-bookmark:before { content: '\eaa5'; }
+.codicon-debug-breakpoint-conditional-unverified:before { content: '\eaa6'; }
+.codicon-debug-breakpoint-conditional:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-conditional-disabled:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-data-unverified:before { content: '\eaa8'; }
+.codicon-debug-breakpoint-data:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-data-disabled:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-log-unverified:before { content: '\eaaa'; }
+.codicon-debug-breakpoint-log:before { content: '\eaab'; }
+.codicon-debug-breakpoint-log-disabled:before { content: '\eaab'; }
+.codicon-briefcase:before { content: '\eaac'; }
+.codicon-broadcast:before { content: '\eaad'; }
+.codicon-browser:before { content: '\eaae'; }
+.codicon-bug:before { content: '\eaaf'; }
+.codicon-calendar:before { content: '\eab0'; }
+.codicon-case-sensitive:before { content: '\eab1'; }
+.codicon-check:before { content: '\eab2'; }
+.codicon-checklist:before { content: '\eab3'; }
+.codicon-chevron-down:before { content: '\eab4'; }
+.codicon-chevron-left:before { content: '\eab5'; }
+.codicon-chevron-right:before { content: '\eab6'; }
+.codicon-chevron-up:before { content: '\eab7'; }
+.codicon-chrome-close:before { content: '\eab8'; }
+.codicon-chrome-maximize:before { content: '\eab9'; }
+.codicon-chrome-minimize:before { content: '\eaba'; }
+.codicon-chrome-restore:before { content: '\eabb'; }
+.codicon-circle-outline:before { content: '\eabc'; }
+.codicon-circle:before { content: '\eabc'; }
+.codicon-debug-breakpoint-unverified:before { content: '\eabc'; }
+.codicon-terminal-decoration-incomplete:before { content: '\eabc'; }
+.codicon-circle-slash:before { content: '\eabd'; }
+.codicon-circuit-board:before { content: '\eabe'; }
+.codicon-clear-all:before { content: '\eabf'; }
+.codicon-clippy:before { content: '\eac0'; }
+.codicon-close-all:before { content: '\eac1'; }
+.codicon-cloud-download:before { content: '\eac2'; }
+.codicon-cloud-upload:before { content: '\eac3'; }
+.codicon-code:before { content: '\eac4'; }
+.codicon-collapse-all:before { content: '\eac5'; }
+.codicon-color-mode:before { content: '\eac6'; }
+.codicon-comment-discussion:before { content: '\eac7'; }
+.codicon-credit-card:before { content: '\eac9'; }
+.codicon-dash:before { content: '\eacc'; }
+.codicon-dashboard:before { content: '\eacd'; }
+.codicon-database:before { content: '\eace'; }
+.codicon-debug-continue:before { content: '\eacf'; }
+.codicon-debug-disconnect:before { content: '\ead0'; }
+.codicon-debug-pause:before { content: '\ead1'; }
+.codicon-debug-restart:before { content: '\ead2'; }
+.codicon-debug-start:before { content: '\ead3'; }
+.codicon-debug-step-into:before { content: '\ead4'; }
+.codicon-debug-step-out:before { content: '\ead5'; }
+.codicon-debug-step-over:before { content: '\ead6'; }
+.codicon-debug-stop:before { content: '\ead7'; }
+.codicon-debug:before { content: '\ead8'; }
+.codicon-device-camera-video:before { content: '\ead9'; }
+.codicon-device-camera:before { content: '\eada'; }
+.codicon-device-mobile:before { content: '\eadb'; }
+.codicon-diff-added:before { content: '\eadc'; }
+.codicon-diff-ignored:before { content: '\eadd'; }
+.codicon-diff-modified:before { content: '\eade'; }
+.codicon-diff-removed:before { content: '\eadf'; }
+.codicon-diff-renamed:before { content: '\eae0'; }
+.codicon-diff:before { content: '\eae1'; }
+.codicon-diff-sidebyside:before { content: '\eae1'; }
+.codicon-discard:before { content: '\eae2'; }
+.codicon-editor-layout:before { content: '\eae3'; }
+.codicon-empty-window:before { content: '\eae4'; }
+.codicon-exclude:before { content: '\eae5'; }
+.codicon-extensions:before { content: '\eae6'; }
+.codicon-eye-closed:before { content: '\eae7'; }
+.codicon-file-binary:before { content: '\eae8'; }
+.codicon-file-code:before { content: '\eae9'; }
+.codicon-file-media:before { content: '\eaea'; }
+.codicon-file-pdf:before { content: '\eaeb'; }
+.codicon-file-submodule:before { content: '\eaec'; }
+.codicon-file-symlink-directory:before { content: '\eaed'; }
+.codicon-file-symlink-file:before { content: '\eaee'; }
+.codicon-file-zip:before { content: '\eaef'; }
+.codicon-files:before { content: '\eaf0'; }
+.codicon-filter:before { content: '\eaf1'; }
+.codicon-flame:before { content: '\eaf2'; }
+.codicon-fold-down:before { content: '\eaf3'; }
+.codicon-fold-up:before { content: '\eaf4'; }
+.codicon-fold:before { content: '\eaf5'; }
+.codicon-folder-active:before { content: '\eaf6'; }
+.codicon-folder-opened:before { content: '\eaf7'; }
+.codicon-gear:before { content: '\eaf8'; }
+.codicon-gift:before { content: '\eaf9'; }
+.codicon-gist-secret:before { content: '\eafa'; }
+.codicon-gist:before { content: '\eafb'; }
+.codicon-git-commit:before { content: '\eafc'; }
+.codicon-git-compare:before { content: '\eafd'; }
+.codicon-compare-changes:before { content: '\eafd'; }
+.codicon-git-merge:before { content: '\eafe'; }
+.codicon-github-action:before { content: '\eaff'; }
+.codicon-github-alt:before { content: '\eb00'; }
+.codicon-globe:before { content: '\eb01'; }
+.codicon-grabber:before { content: '\eb02'; }
+.codicon-graph:before { content: '\eb03'; }
+.codicon-gripper:before { content: '\eb04'; }
+.codicon-heart:before { content: '\eb05'; }
+.codicon-home:before { content: '\eb06'; }
+.codicon-horizontal-rule:before { content: '\eb07'; }
+.codicon-hubot:before { content: '\eb08'; }
+.codicon-inbox:before { content: '\eb09'; }
+.codicon-issue-reopened:before { content: '\eb0b'; }
+.codicon-issues:before { content: '\eb0c'; }
+.codicon-italic:before { content: '\eb0d'; }
+.codicon-jersey:before { content: '\eb0e'; }
+.codicon-json:before { content: '\eb0f'; }
+.codicon-kebab-vertical:before { content: '\eb10'; }
+.codicon-key:before { content: '\eb11'; }
+.codicon-law:before { content: '\eb12'; }
+.codicon-lightbulb-autofix:before { content: '\eb13'; }
+.codicon-link-external:before { content: '\eb14'; }
+.codicon-link:before { content: '\eb15'; }
+.codicon-list-ordered:before { content: '\eb16'; }
+.codicon-list-unordered:before { content: '\eb17'; }
+.codicon-live-share:before { content: '\eb18'; }
+.codicon-loading:before { content: '\eb19'; }
+.codicon-location:before { content: '\eb1a'; }
+.codicon-mail-read:before { content: '\eb1b'; }
+.codicon-mail:before { content: '\eb1c'; }
+.codicon-markdown:before { content: '\eb1d'; }
+.codicon-megaphone:before { content: '\eb1e'; }
+.codicon-mention:before { content: '\eb1f'; }
+.codicon-milestone:before { content: '\eb20'; }
+.codicon-git-pull-request-milestone:before { content: '\eb20'; }
+.codicon-mortar-board:before { content: '\eb21'; }
+.codicon-move:before { content: '\eb22'; }
+.codicon-multiple-windows:before { content: '\eb23'; }
+.codicon-mute:before { content: '\eb24'; }
+.codicon-no-newline:before { content: '\eb25'; }
+.codicon-note:before { content: '\eb26'; }
+.codicon-octoface:before { content: '\eb27'; }
+.codicon-open-preview:before { content: '\eb28'; }
+.codicon-package:before { content: '\eb29'; }
+.codicon-paintcan:before { content: '\eb2a'; }
+.codicon-pin:before { content: '\eb2b'; }
+.codicon-play:before { content: '\eb2c'; }
+.codicon-run:before { content: '\eb2c'; }
+.codicon-plug:before { content: '\eb2d'; }
+.codicon-preserve-case:before { content: '\eb2e'; }
+.codicon-preview:before { content: '\eb2f'; }
+.codicon-project:before { content: '\eb30'; }
+.codicon-pulse:before { content: '\eb31'; }
+.codicon-question:before { content: '\eb32'; }
+.codicon-quote:before { content: '\eb33'; }
+.codicon-radio-tower:before { content: '\eb34'; }
+.codicon-reactions:before { content: '\eb35'; }
+.codicon-references:before { content: '\eb36'; }
+.codicon-refresh:before { content: '\eb37'; }
+.codicon-regex:before { content: '\eb38'; }
+.codicon-remote-explorer:before { content: '\eb39'; }
+.codicon-remote:before { content: '\eb3a'; }
+.codicon-remove:before { content: '\eb3b'; }
+.codicon-replace-all:before { content: '\eb3c'; }
+.codicon-replace:before { content: '\eb3d'; }
+.codicon-repo-clone:before { content: '\eb3e'; }
+.codicon-repo-force-push:before { content: '\eb3f'; }
+.codicon-repo-pull:before { content: '\eb40'; }
+.codicon-repo-push:before { content: '\eb41'; }
+.codicon-report:before { content: '\eb42'; }
+.codicon-request-changes:before { content: '\eb43'; }
+.codicon-rocket:before { content: '\eb44'; }
+.codicon-root-folder-opened:before { content: '\eb45'; }
+.codicon-root-folder:before { content: '\eb46'; }
+.codicon-rss:before { content: '\eb47'; }
+.codicon-ruby:before { content: '\eb48'; }
+.codicon-save-all:before { content: '\eb49'; }
+.codicon-save-as:before { content: '\eb4a'; }
+.codicon-save:before { content: '\eb4b'; }
+.codicon-screen-full:before { content: '\eb4c'; }
+.codicon-screen-normal:before { content: '\eb4d'; }
+.codicon-search-stop:before { content: '\eb4e'; }
+.codicon-server:before { content: '\eb50'; }
+.codicon-settings-gear:before { content: '\eb51'; }
+.codicon-settings:before { content: '\eb52'; }
+.codicon-shield:before { content: '\eb53'; }
+.codicon-smiley:before { content: '\eb54'; }
+.codicon-sort-precedence:before { content: '\eb55'; }
+.codicon-split-horizontal:before { content: '\eb56'; }
+.codicon-split-vertical:before { content: '\eb57'; }
+.codicon-squirrel:before { content: '\eb58'; }
+.codicon-star-full:before { content: '\eb59'; }
+.codicon-star-half:before { content: '\eb5a'; }
+.codicon-symbol-class:before { content: '\eb5b'; }
+.codicon-symbol-color:before { content: '\eb5c'; }
+.codicon-symbol-constant:before { content: '\eb5d'; }
+.codicon-symbol-enum-member:before { content: '\eb5e'; }
+.codicon-symbol-field:before { content: '\eb5f'; }
+.codicon-symbol-file:before { content: '\eb60'; }
+.codicon-symbol-interface:before { content: '\eb61'; }
+.codicon-symbol-keyword:before { content: '\eb62'; }
+.codicon-symbol-misc:before { content: '\eb63'; }
+.codicon-symbol-operator:before { content: '\eb64'; }
+.codicon-symbol-property:before { content: '\eb65'; }
+.codicon-wrench:before { content: '\eb65'; }
+.codicon-wrench-subaction:before { content: '\eb65'; }
+.codicon-symbol-snippet:before { content: '\eb66'; }
+.codicon-tasklist:before { content: '\eb67'; }
+.codicon-telescope:before { content: '\eb68'; }
+.codicon-text-size:before { content: '\eb69'; }
+.codicon-three-bars:before { content: '\eb6a'; }
+.codicon-thumbsdown:before { content: '\eb6b'; }
+.codicon-thumbsup:before { content: '\eb6c'; }
+.codicon-tools:before { content: '\eb6d'; }
+.codicon-triangle-down:before { content: '\eb6e'; }
+.codicon-triangle-left:before { content: '\eb6f'; }
+.codicon-triangle-right:before { content: '\eb70'; }
+.codicon-triangle-up:before { content: '\eb71'; }
+.codicon-twitter:before { content: '\eb72'; }
+.codicon-unfold:before { content: '\eb73'; }
+.codicon-unlock:before { content: '\eb74'; }
+.codicon-unmute:before { content: '\eb75'; }
+.codicon-unverified:before { content: '\eb76'; }
+.codicon-verified:before { content: '\eb77'; }
+.codicon-versions:before { content: '\eb78'; }
+.codicon-vm-active:before { content: '\eb79'; }
+.codicon-vm-outline:before { content: '\eb7a'; }
+.codicon-vm-running:before { content: '\eb7b'; }
+.codicon-watch:before { content: '\eb7c'; }
+.codicon-whitespace:before { content: '\eb7d'; }
+.codicon-whole-word:before { content: '\eb7e'; }
+.codicon-window:before { content: '\eb7f'; }
+.codicon-word-wrap:before { content: '\eb80'; }
+.codicon-zoom-in:before { content: '\eb81'; }
+.codicon-zoom-out:before { content: '\eb82'; }
+.codicon-list-filter:before { content: '\eb83'; }
+.codicon-list-flat:before { content: '\eb84'; }
+.codicon-list-selection:before { content: '\eb85'; }
+.codicon-selection:before { content: '\eb85'; }
+.codicon-list-tree:before { content: '\eb86'; }
+.codicon-debug-breakpoint-function-unverified:before { content: '\eb87'; }
+.codicon-debug-breakpoint-function:before { content: '\eb88'; }
+.codicon-debug-breakpoint-function-disabled:before { content: '\eb88'; }
+.codicon-debug-stackframe-active:before { content: '\eb89'; }
+.codicon-circle-small-filled:before { content: '\eb8a'; }
+.codicon-debug-stackframe-dot:before { content: '\eb8a'; }
+.codicon-terminal-decoration-mark:before { content: '\eb8a'; }
+.codicon-debug-stackframe:before { content: '\eb8b'; }
+.codicon-debug-stackframe-focused:before { content: '\eb8b'; }
+.codicon-debug-breakpoint-unsupported:before { content: '\eb8c'; }
+.codicon-symbol-string:before { content: '\eb8d'; }
+.codicon-debug-reverse-continue:before { content: '\eb8e'; }
+.codicon-debug-step-back:before { content: '\eb8f'; }
+.codicon-debug-restart-frame:before { content: '\eb90'; }
+.codicon-debug-alt:before { content: '\eb91'; }
+.codicon-call-incoming:before { content: '\eb92'; }
+.codicon-call-outgoing:before { content: '\eb93'; }
+.codicon-menu:before { content: '\eb94'; }
+.codicon-expand-all:before { content: '\eb95'; }
+.codicon-feedback:before { content: '\eb96'; }
+.codicon-git-pull-request-reviewer:before { content: '\eb96'; }
+.codicon-group-by-ref-type:before { content: '\eb97'; }
+.codicon-ungroup-by-ref-type:before { content: '\eb98'; }
+.codicon-account:before { content: '\eb99'; }
+.codicon-git-pull-request-assignee:before { content: '\eb99'; }
+.codicon-bell-dot:before { content: '\eb9a'; }
+.codicon-debug-console:before { content: '\eb9b'; }
+.codicon-library:before { content: '\eb9c'; }
+.codicon-output:before { content: '\eb9d'; }
+.codicon-run-all:before { content: '\eb9e'; }
+.codicon-sync-ignored:before { content: '\eb9f'; }
+.codicon-pinned:before { content: '\eba0'; }
+.codicon-github-inverted:before { content: '\eba1'; }
+.codicon-server-process:before { content: '\eba2'; }
+.codicon-server-environment:before { content: '\eba3'; }
+.codicon-pass:before { content: '\eba4'; }
+.codicon-issue-closed:before { content: '\eba4'; }
+.codicon-stop-circle:before { content: '\eba5'; }
+.codicon-play-circle:before { content: '\eba6'; }
+.codicon-record:before { content: '\eba7'; }
+.codicon-debug-alt-small:before { content: '\eba8'; }
+.codicon-vm-connect:before { content: '\eba9'; }
+.codicon-cloud:before { content: '\ebaa'; }
+.codicon-merge:before { content: '\ebab'; }
+.codicon-export:before { content: '\ebac'; }
+.codicon-graph-left:before { content: '\ebad'; }
+.codicon-magnet:before { content: '\ebae'; }
+.codicon-notebook:before { content: '\ebaf'; }
+.codicon-redo:before { content: '\ebb0'; }
+.codicon-check-all:before { content: '\ebb1'; }
+.codicon-pinned-dirty:before { content: '\ebb2'; }
+.codicon-pass-filled:before { content: '\ebb3'; }
+.codicon-circle-large-filled:before { content: '\ebb4'; }
+.codicon-circle-large:before { content: '\ebb5'; }
+.codicon-circle-large-outline:before { content: '\ebb5'; }
+.codicon-combine:before { content: '\ebb6'; }
+.codicon-gather:before { content: '\ebb6'; }
+.codicon-table:before { content: '\ebb7'; }
+.codicon-variable-group:before { content: '\ebb8'; }
+.codicon-type-hierarchy:before { content: '\ebb9'; }
+.codicon-type-hierarchy-sub:before { content: '\ebba'; }
+.codicon-type-hierarchy-super:before { content: '\ebbb'; }
+.codicon-git-pull-request-create:before { content: '\ebbc'; }
+.codicon-run-above:before { content: '\ebbd'; }
+.codicon-run-below:before { content: '\ebbe'; }
+.codicon-notebook-template:before { content: '\ebbf'; }
+.codicon-debug-rerun:before { content: '\ebc0'; }
+.codicon-workspace-trusted:before { content: '\ebc1'; }
+.codicon-workspace-untrusted:before { content: '\ebc2'; }
+.codicon-workspace-unknown:before { content: '\ebc3'; }
+.codicon-terminal-cmd:before { content: '\ebc4'; }
+.codicon-terminal-debian:before { content: '\ebc5'; }
+.codicon-terminal-linux:before { content: '\ebc6'; }
+.codicon-terminal-powershell:before { content: '\ebc7'; }
+.codicon-terminal-tmux:before { content: '\ebc8'; }
+.codicon-terminal-ubuntu:before { content: '\ebc9'; }
+.codicon-terminal-bash:before { content: '\ebca'; }
+.codicon-arrow-swap:before { content: '\ebcb'; }
+.codicon-copy:before { content: '\ebcc'; }
+.codicon-person-add:before { content: '\ebcd'; }
+.codicon-filter-filled:before { content: '\ebce'; }
+.codicon-wand:before { content: '\ebcf'; }
+.codicon-debug-line-by-line:before { content: '\ebd0'; }
+.codicon-inspect:before { content: '\ebd1'; }
+.codicon-layers:before { content: '\ebd2'; }
+.codicon-layers-dot:before { content: '\ebd3'; }
+.codicon-layers-active:before { content: '\ebd4'; }
+.codicon-compass:before { content: '\ebd5'; }
+.codicon-compass-dot:before { content: '\ebd6'; }
+.codicon-compass-active:before { content: '\ebd7'; }
+.codicon-azure:before { content: '\ebd8'; }
+.codicon-issue-draft:before { content: '\ebd9'; }
+.codicon-git-pull-request-closed:before { content: '\ebda'; }
+.codicon-git-pull-request-draft:before { content: '\ebdb'; }
+.codicon-debug-all:before { content: '\ebdc'; }
+.codicon-debug-coverage:before { content: '\ebdd'; }
+.codicon-run-errors:before { content: '\ebde'; }
+.codicon-folder-library:before { content: '\ebdf'; }
+.codicon-debug-continue-small:before { content: '\ebe0'; }
+.codicon-beaker-stop:before { content: '\ebe1'; }
+.codicon-graph-line:before { content: '\ebe2'; }
+.codicon-graph-scatter:before { content: '\ebe3'; }
+.codicon-pie-chart:before { content: '\ebe4'; }
+.codicon-bracket:before { content: '\eb0f'; }
+.codicon-bracket-dot:before { content: '\ebe5'; }
+.codicon-bracket-error:before { content: '\ebe6'; }
+.codicon-lock-small:before { content: '\ebe7'; }
+.codicon-azure-devops:before { content: '\ebe8'; }
+.codicon-verified-filled:before { content: '\ebe9'; }
+.codicon-newline:before { content: '\ebea'; }
+.codicon-layout:before { content: '\ebeb'; }
+.codicon-layout-activitybar-left:before { content: '\ebec'; }
+.codicon-layout-activitybar-right:before { content: '\ebed'; }
+.codicon-layout-panel-left:before { content: '\ebee'; }
+.codicon-layout-panel-center:before { content: '\ebef'; }
+.codicon-layout-panel-justify:before { content: '\ebf0'; }
+.codicon-layout-panel-right:before { content: '\ebf1'; }
+.codicon-layout-panel:before { content: '\ebf2'; }
+.codicon-layout-sidebar-left:before { content: '\ebf3'; }
+.codicon-layout-sidebar-right:before { content: '\ebf4'; }
+.codicon-layout-statusbar:before { content: '\ebf5'; }
+.codicon-layout-menubar:before { content: '\ebf6'; }
+.codicon-layout-centered:before { content: '\ebf7'; }
+.codicon-target:before { content: '\ebf8'; }
+.codicon-indent:before { content: '\ebf9'; }
+.codicon-record-small:before { content: '\ebfa'; }
+.codicon-error-small:before { content: '\ebfb'; }
+.codicon-terminal-decoration-error:before { content: '\ebfb'; }
+.codicon-arrow-circle-down:before { content: '\ebfc'; }
+.codicon-arrow-circle-left:before { content: '\ebfd'; }
+.codicon-arrow-circle-right:before { content: '\ebfe'; }
+.codicon-arrow-circle-up:before { content: '\ebff'; }
+.codicon-layout-sidebar-right-off:before { content: '\ec00'; }
+.codicon-layout-panel-off:before { content: '\ec01'; }
+.codicon-layout-sidebar-left-off:before { content: '\ec02'; }
+.codicon-blank:before { content: '\ec03'; }
+.codicon-heart-filled:before { content: '\ec04'; }
+.codicon-map:before { content: '\ec05'; }
+.codicon-map-horizontal:before { content: '\ec05'; }
+.codicon-fold-horizontal:before { content: '\ec05'; }
+.codicon-map-filled:before { content: '\ec06'; }
+.codicon-map-horizontal-filled:before { content: '\ec06'; }
+.codicon-fold-horizontal-filled:before { content: '\ec06'; }
+.codicon-circle-small:before { content: '\ec07'; }
+.codicon-bell-slash:before { content: '\ec08'; }
+.codicon-bell-slash-dot:before { content: '\ec09'; }
+.codicon-comment-unresolved:before { content: '\ec0a'; }
+.codicon-git-pull-request-go-to-changes:before { content: '\ec0b'; }
+.codicon-git-pull-request-new-changes:before { content: '\ec0c'; }
+.codicon-search-fuzzy:before { content: '\ec0d'; }
+.codicon-comment-draft:before { content: '\ec0e'; }
+.codicon-send:before { content: '\ec0f'; }
+.codicon-sparkle:before { content: '\ec10'; }
+.codicon-insert:before { content: '\ec11'; }
+.codicon-mic:before { content: '\ec12'; }
+.codicon-thumbsdown-filled:before { content: '\ec13'; }
+.codicon-thumbsup-filled:before { content: '\ec14'; }
+.codicon-coffee:before { content: '\ec15'; }
+.codicon-snake:before { content: '\ec16'; }
+.codicon-game:before { content: '\ec17'; }
+.codicon-vr:before { content: '\ec18'; }
+.codicon-chip:before { content: '\ec19'; }
+.codicon-piano:before { content: '\ec1a'; }
+.codicon-music:before { content: '\ec1b'; }
+.codicon-mic-filled:before { content: '\ec1c'; }
+.codicon-repo-fetch:before { content: '\ec1d'; }
+.codicon-copilot:before { content: '\ec1e'; }
+.codicon-lightbulb-sparkle:before { content: '\ec1f'; }
+.codicon-robot:before { content: '\ec20'; }
+.codicon-sparkle-filled:before { content: '\ec21'; }
+.codicon-diff-single:before { content: '\ec22'; }
+.codicon-diff-multiple:before { content: '\ec23'; }
+.codicon-surround-with:before { content: '\ec24'; }
+.codicon-share:before { content: '\ec25'; }
+.codicon-git-stash:before { content: '\ec26'; }
+.codicon-git-stash-apply:before { content: '\ec27'; }
+.codicon-git-stash-pop:before { content: '\ec28'; }
+.codicon-vscode:before { content: '\ec29'; }
+.codicon-vscode-insiders:before { content: '\ec2a'; }
+.codicon-code-oss:before { content: '\ec2b'; }
+.codicon-run-coverage:before { content: '\ec2c'; }
+.codicon-run-all-coverage:before { content: '\ec2d'; }
+.codicon-coverage:before { content: '\ec2e'; }
+.codicon-github-project:before { content: '\ec2f'; }
+.codicon-map-vertical:before { content: '\ec30'; }
+.codicon-fold-vertical:before { content: '\ec30'; }
+.codicon-map-vertical-filled:before { content: '\ec31'; }
+.codicon-fold-vertical-filled:before { content: '\ec31'; }
+.codicon-dialog-error:before { content: '\ea87'; }
+.codicon-dialog-warning:before { content: '\ea6c'; }
+.codicon-dialog-info:before { content: '\ea74'; }
+.codicon-dialog-close:before { content: '\ea76'; }
+.codicon-tree-item-expanded:before { content: '\eab4'; }
+.codicon-tree-filter-on-type-on:before { content: '\eb83'; }
+.codicon-tree-filter-on-type-off:before { content: '\eb85'; }
+.codicon-tree-filter-clear:before { content: '\ea76'; }
+.codicon-tree-item-loading:before { content: '\eb19'; }
+.codicon-menu-selection:before { content: '\eab2'; }
+.codicon-menu-submenu:before { content: '\eab6'; }
+.codicon-menubar-more:before { content: '\ea7c'; }
+.codicon-scrollbar-button-left:before { content: '\eb6f'; }
+.codicon-scrollbar-button-right:before { content: '\eb70'; }
+.codicon-scrollbar-button-up:before { content: '\eb71'; }
+.codicon-scrollbar-button-down:before { content: '\eb6e'; }
+.codicon-toolbar-more:before { content: '\ea7c'; }
+.codicon-quick-input-back:before { content: '\ea9b'; }
+.codicon-drop-down-button:before { content: '\eab4'; }
+.codicon-symbol-customcolor:before { content: '\eb5c'; }
+.codicon-workspace-unspecified:before { content: '\ebc3'; }
+.codicon-git-fetch:before { content: '\ec1d'; }
+.codicon-lightbulb-sparkle-autofix:before { content: '\ec1f'; }
+.codicon-debug-breakpoint-pending:before { content: '\ebd9'; }
+.codicon-widget-close:before { content: '\ea76'; }
+.codicon-goto-previous-location:before { content: '\eaa1'; }
+.codicon-goto-next-location:before { content: '\ea9a'; }
+.codicon-diff-review-insert:before { content: '\ea60'; }
+.codicon-diff-review-remove:before { content: '\eb3b'; }
+.codicon-diff-review-close:before { content: '\ea76'; }
+.codicon-parameter-hints-next:before { content: '\eab4'; }
+.codicon-parameter-hints-previous:before { content: '\eab7'; }
+.codicon-suggest-more-info:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-next:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-previous:before { content: '\eab5'; }
+.codicon-diff-insert:before { content: '\ea60'; }
+.codicon-diff-remove:before { content: '\eb3b'; }
+.codicon-find-selection:before { content: '\eb85'; }
+.codicon-find-collapsed:before { content: '\eab6'; }
+.codicon-find-expanded:before { content: '\eab4'; }
+.codicon-find-replace:before { content: '\eb3d'; }
+.codicon-find-replace-all:before { content: '\eb3c'; }
+.codicon-find-previous-match:before { content: '\eaa1'; }
+.codicon-find-next-match:before { content: '\ea9a'; }
+.codicon-folding-expanded:before { content: '\eab4'; }
+.codicon-folding-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-expanded:before { content: '\eab4'; }
+.codicon-marker-navigation-next:before { content: '\ea9a'; }
+.codicon-marker-navigation-previous:before { content: '\eaa1'; }
+.codicon-extensions-warning-message:before { content: '\ea6c'; }
+.monaco-workbench .workbench-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-workbench .workbench-hover hr { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .inputarea.ime-input { background-color: #1e1e1e; }
+.monaco-editor .view-overlays .current-line-exact { border: 2px solid #282828; }
+.monaco-editor .margin-view-overlays .current-line-exact-margin { border: 2px solid #282828; }
+.monaco-editor .bracket-indent-guide.lvl-0 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-1 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-2 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-3 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-4 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-5 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-6 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-7 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-8 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-9 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-10 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-11 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-12 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-13 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-14 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-15 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-16 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-17 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-18 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-19 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-20 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-21 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-22 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-23 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-24 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-25 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-26 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-27 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-28 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-29 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .vertical { box-shadow: 1px 0 0 0 var(--guide-color) inset; }
+.monaco-editor .horizontal-top { border-top: 1px solid var(--guide-color); }
+.monaco-editor .horizontal-bottom { border-bottom: 1px solid var(--guide-color); }
+.monaco-editor .vertical.indent-active { box-shadow: 1px 0 0 0 var(--guide-color-active) inset; }
+.monaco-editor .horizontal-top.indent-active { border-top: 1px solid var(--guide-color-active); }
+.monaco-editor .horizontal-bottom.indent-active { border-bottom: 1px solid var(--guide-color-active); }
+.monaco-editor .lines-content .core-guide-indent.lvl-0 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-1 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-2 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-3 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-4 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-5 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-6 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-7 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-8 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-9 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-10 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-11 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-12 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-13 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-14 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-15 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-16 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-17 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-18 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-19 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-20 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-21 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-22 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-23 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-24 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-25 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-26 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-27 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-28 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-29 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent { box-shadow: 1px 0 0 0 var(--indent-color) inset; }
+.monaco-editor .lines-content .core-guide-indent.indent-active { box-shadow: 1px 0 0 0 var(--indent-color-active) inset; }
+.monaco-editor .line-numbers.dimmed-line-number { color: rgba(133, 133, 133, 0.4); }
+.monaco-editor .cursors-layer .cursor { background-color: #aeafad; border-color: #aeafad; color: #515052; }
+.monaco-editor .cursors-layer .cursor-primary { background-color: #aeafad; border-color: #aeafad; color: #515052; }
+.monaco-editor .cursors-layer .cursor-secondary { background-color: #aeafad; border-color: #aeafad; color: #515052; }
+.monaco-editor .unexpected-closing-bracket { color: rgba(255, 18, 18, 0.8); }
+.monaco-editor .bracket-highlighting-0 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-1 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-2 { color: #179fff; }
+.monaco-editor .bracket-highlighting-3 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-4 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-5 { color: #179fff; }
+.monaco-editor .bracket-highlighting-6 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-7 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-8 { color: #179fff; }
+.monaco-editor .bracket-highlighting-9 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-10 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-11 { color: #179fff; }
+.monaco-editor .bracket-highlighting-12 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-13 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-14 { color: #179fff; }
+.monaco-editor .bracket-highlighting-15 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-16 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-17 { color: #179fff; }
+.monaco-editor .bracket-highlighting-18 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-19 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-20 { color: #179fff; }
+.monaco-editor .bracket-highlighting-21 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-22 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-23 { color: #179fff; }
+.monaco-editor .bracket-highlighting-24 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-25 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-26 { color: #179fff; }
+.monaco-editor .bracket-highlighting-27 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-28 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-29 { color: #179fff; }
+.monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23f14c4c'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23cca700'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%233794ff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22rgba(238%2C%20238%2C%20238%2C%200.7)%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+.monaco-editor.showUnused .squiggly-inline-unnecessary { opacity: 0.667; }
+.monaco-editor .quickfix-edit-highlight { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.07); }
+.monaco-editor .monaco-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-bottom: 0px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor, .monaco-diff-editor, .monaco-component { --vscode-foreground: #cccccc;
+--vscode-disabledForeground: rgba(204, 204, 204, 0.5);
+--vscode-errorForeground: #f48771;
+--vscode-descriptionForeground: rgba(204, 204, 204, 0.7);
+--vscode-icon-foreground: #c5c5c5;
+--vscode-focusBorder: #007fd4;
+--vscode-textLink-foreground: #3794ff;
+--vscode-textLink-activeForeground: #3794ff;
+--vscode-textSeparator-foreground: rgba(255, 255, 255, 0.18);
+--vscode-textPreformat-foreground: #d7ba7d;
+--vscode-textPreformat-background: rgba(255, 255, 255, 0.1);
+--vscode-textBlockQuote-background: #222222;
+--vscode-textBlockQuote-border: rgba(0, 122, 204, 0.5);
+--vscode-textCodeBlock-background: rgba(10, 10, 10, 0.4);
+--vscode-sash-hoverBorder: #007fd4;
+--vscode-badge-background: #4d4d4d;
+--vscode-badge-foreground: #ffffff;
+--vscode-scrollbar-shadow: #000000;
+--vscode-scrollbarSlider-background: rgba(121, 121, 121, 0.4);
+--vscode-scrollbarSlider-hoverBackground: rgba(100, 100, 100, 0.7);
+--vscode-scrollbarSlider-activeBackground: rgba(191, 191, 191, 0.4);
+--vscode-progressBar-background: #0e70c0;
+--vscode-editor-background: #1e1e1e;
+--vscode-editor-foreground: #d4d4d4;
+--vscode-editorStickyScroll-background: #1e1e1e;
+--vscode-editorStickyScrollHover-background: #2a2d2e;
+--vscode-editorStickyScroll-shadow: #000000;
+--vscode-editorWidget-background: #252526;
+--vscode-editorWidget-foreground: #cccccc;
+--vscode-editorWidget-border: #454545;
+--vscode-editorError-foreground: #f14c4c;
+--vscode-editorWarning-foreground: #cca700;
+--vscode-editorInfo-foreground: #3794ff;
+--vscode-editorHint-foreground: rgba(238, 238, 238, 0.7);
+--vscode-editorLink-activeForeground: #4e94ce;
+--vscode-editor-selectionBackground: #264f78;
+--vscode-editor-inactiveSelectionBackground: #3a3d41;
+--vscode-editor-selectionHighlightBackground: rgba(173, 214, 255, 0.15);
+--vscode-editor-findMatchBackground: #515c6a;
+--vscode-editor-findMatchHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editor-findRangeHighlightBackground: rgba(58, 61, 65, 0.4);
+--vscode-editor-hoverHighlightBackground: rgba(38, 79, 120, 0.25);
+--vscode-editorHoverWidget-background: #252526;
+--vscode-editorHoverWidget-foreground: #cccccc;
+--vscode-editorHoverWidget-border: #454545;
+--vscode-editorHoverWidget-statusBarBackground: #2c2c2d;
+--vscode-editorInlayHint-foreground: #969696;
+--vscode-editorInlayHint-background: rgba(77, 77, 77, 0.1);
+--vscode-editorInlayHint-typeForeground: #969696;
+--vscode-editorInlayHint-typeBackground: rgba(77, 77, 77, 0.1);
+--vscode-editorInlayHint-parameterForeground: #969696;
+--vscode-editorInlayHint-parameterBackground: rgba(77, 77, 77, 0.1);
+--vscode-editorLightBulb-foreground: #ffcc00;
+--vscode-editorLightBulbAutoFix-foreground: #75beff;
+--vscode-editorLightBulbAi-foreground: #ffcc00;
+--vscode-editor-snippetTabstopHighlightBackground: rgba(124, 124, 124, 0.3);
+--vscode-editor-snippetFinalTabstopHighlightBorder: #525252;
+--vscode-diffEditor-insertedTextBackground: rgba(156, 204, 44, 0.2);
+--vscode-diffEditor-removedTextBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-insertedLineBackground: rgba(155, 185, 85, 0.2);
+--vscode-diffEditor-removedLineBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-diagonalFill: rgba(204, 204, 204, 0.2);
+--vscode-diffEditor-unchangedRegionForeground: #cccccc;
+--vscode-diffEditor-unchangedCodeBackground: rgba(116, 116, 116, 0.16);
+--vscode-widget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-toolbar-hoverBackground: rgba(90, 93, 94, 0.31);
+--vscode-toolbar-activeBackground: rgba(99, 102, 103, 0.31);
+--vscode-breadcrumb-foreground: rgba(204, 204, 204, 0.8);
+--vscode-breadcrumb-background: #1e1e1e;
+--vscode-breadcrumb-focusForeground: #e0e0e0;
+--vscode-breadcrumb-activeSelectionForeground: #e0e0e0;
+--vscode-breadcrumbPicker-background: #252526;
+--vscode-merge-currentHeaderBackground: rgba(64, 200, 174, 0.5);
+--vscode-merge-currentContentBackground: rgba(64, 200, 174, 0.2);
+--vscode-merge-incomingHeaderBackground: rgba(64, 166, 255, 0.5);
+--vscode-merge-incomingContentBackground: rgba(64, 166, 255, 0.2);
+--vscode-merge-commonHeaderBackground: rgba(96, 96, 96, 0.4);
+--vscode-merge-commonContentBackground: rgba(96, 96, 96, 0.16);
+--vscode-editorOverviewRuler-currentContentForeground: rgba(64, 200, 174, 0.5);
+--vscode-editorOverviewRuler-incomingContentForeground: rgba(64, 166, 255, 0.5);
+--vscode-editorOverviewRuler-commonContentForeground: rgba(96, 96, 96, 0.4);
+--vscode-editorOverviewRuler-findMatchForeground: rgba(209, 134, 22, 0.49);
+--vscode-editorOverviewRuler-selectionHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-problemsErrorIcon-foreground: #f14c4c;
+--vscode-problemsWarningIcon-foreground: #cca700;
+--vscode-problemsInfoIcon-foreground: #3794ff;
+--vscode-input-background: #3c3c3c;
+--vscode-input-foreground: #cccccc;
+--vscode-inputOption-activeBorder: #007acc;
+--vscode-inputOption-hoverBackground: rgba(90, 93, 94, 0.5);
+--vscode-inputOption-activeBackground: rgba(0, 127, 212, 0.4);
+--vscode-inputOption-activeForeground: #ffffff;
+--vscode-input-placeholderForeground: rgba(204, 204, 204, 0.5);
+--vscode-inputValidation-infoBackground: #063b49;
+--vscode-inputValidation-infoBorder: #007acc;
+--vscode-inputValidation-warningBackground: #352a05;
+--vscode-inputValidation-warningBorder: #b89500;
+--vscode-inputValidation-errorBackground: #5a1d1d;
+--vscode-inputValidation-errorBorder: #be1100;
+--vscode-dropdown-background: #3c3c3c;
+--vscode-dropdown-foreground: #f0f0f0;
+--vscode-dropdown-border: #3c3c3c;
+--vscode-button-foreground: #ffffff;
+--vscode-button-separator: rgba(255, 255, 255, 0.4);
+--vscode-button-background: #0e639c;
+--vscode-button-hoverBackground: #1177bb;
+--vscode-button-secondaryForeground: #ffffff;
+--vscode-button-secondaryBackground: #3a3d41;
+--vscode-button-secondaryHoverBackground: #45494e;
+--vscode-checkbox-background: #3c3c3c;
+--vscode-checkbox-selectBackground: #252526;
+--vscode-checkbox-foreground: #f0f0f0;
+--vscode-checkbox-border: #3c3c3c;
+--vscode-checkbox-selectBorder: #c5c5c5;
+--vscode-keybindingLabel-background: rgba(128, 128, 128, 0.17);
+--vscode-keybindingLabel-foreground: #cccccc;
+--vscode-keybindingLabel-border: rgba(51, 51, 51, 0.6);
+--vscode-keybindingLabel-bottomBorder: rgba(68, 68, 68, 0.6);
+--vscode-list-focusOutline: #007fd4;
+--vscode-list-activeSelectionBackground: #04395e;
+--vscode-list-activeSelectionForeground: #ffffff;
+--vscode-list-inactiveSelectionBackground: #37373d;
+--vscode-list-hoverBackground: #2a2d2e;
+--vscode-list-dropBackground: #062f4a;
+--vscode-list-dropBetweenBackground: #c5c5c5;
+--vscode-list-highlightForeground: #2aaaff;
+--vscode-list-focusHighlightForeground: #2aaaff;
+--vscode-list-invalidItemForeground: #b89500;
+--vscode-list-errorForeground: #f88070;
+--vscode-list-warningForeground: #cca700;
+--vscode-listFilterWidget-background: #252526;
+--vscode-listFilterWidget-outline: rgba(0, 0, 0, 0);
+--vscode-listFilterWidget-noMatchesOutline: #be1100;
+--vscode-listFilterWidget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-list-filterMatchBackground: rgba(234, 92, 0, 0.33);
+--vscode-list-deemphasizedForeground: #8c8c8c;
+--vscode-tree-indentGuidesStroke: #585858;
+--vscode-tree-inactiveIndentGuidesStroke: rgba(88, 88, 88, 0.4);
+--vscode-tree-tableColumnsBorder: rgba(204, 204, 204, 0.13);
+--vscode-tree-tableOddRowsBackground: rgba(204, 204, 204, 0.04);
+--vscode-menu-foreground: #f0f0f0;
+--vscode-menu-background: #3c3c3c;
+--vscode-menu-selectionForeground: #ffffff;
+--vscode-menu-selectionBackground: #04395e;
+--vscode-menu-separatorBackground: #606060;
+--vscode-minimap-findMatchHighlight: #d18616;
+--vscode-minimap-selectionOccurrenceHighlight: #676767;
+--vscode-minimap-selectionHighlight: #264f78;
+--vscode-minimap-infoHighlight: #3794ff;
+--vscode-minimap-warningHighlight: #cca700;
+--vscode-minimap-errorHighlight: rgba(255, 18, 18, 0.7);
+--vscode-minimap-foregroundOpacity: #000000;
+--vscode-minimapSlider-background: rgba(121, 121, 121, 0.2);
+--vscode-minimapSlider-hoverBackground: rgba(100, 100, 100, 0.35);
+--vscode-minimapSlider-activeBackground: rgba(191, 191, 191, 0.2);
+--vscode-charts-foreground: #cccccc;
+--vscode-charts-lines: rgba(204, 204, 204, 0.5);
+--vscode-charts-red: #f14c4c;
+--vscode-charts-blue: #3794ff;
+--vscode-charts-yellow: #cca700;
+--vscode-charts-orange: #d18616;
+--vscode-charts-green: #89d185;
+--vscode-charts-purple: #b180d7;
+--vscode-quickInput-background: #252526;
+--vscode-quickInput-foreground: #cccccc;
+--vscode-quickInputTitle-background: rgba(255, 255, 255, 0.1);
+--vscode-pickerGroup-foreground: #3794ff;
+--vscode-pickerGroup-border: #3f3f46;
+--vscode-quickInputList-focusForeground: #ffffff;
+--vscode-quickInputList-focusBackground: #04395e;
+--vscode-search-resultsInfoForeground: rgba(204, 204, 204, 0.65);
+--vscode-searchEditor-findMatchBackground: rgba(234, 92, 0, 0.22);
+--vscode-multiDiffEditor-headerBackground: #262626;
+--vscode-symbolIcon-arrayForeground: #cccccc;
+--vscode-symbolIcon-booleanForeground: #cccccc;
+--vscode-symbolIcon-classForeground: #ee9d28;
+--vscode-symbolIcon-colorForeground: #cccccc;
+--vscode-symbolIcon-constantForeground: #cccccc;
+--vscode-symbolIcon-constructorForeground: #b180d7;
+--vscode-symbolIcon-enumeratorForeground: #ee9d28;
+--vscode-symbolIcon-enumeratorMemberForeground: #75beff;
+--vscode-symbolIcon-eventForeground: #ee9d28;
+--vscode-symbolIcon-fieldForeground: #75beff;
+--vscode-symbolIcon-fileForeground: #cccccc;
+--vscode-symbolIcon-folderForeground: #cccccc;
+--vscode-symbolIcon-functionForeground: #b180d7;
+--vscode-symbolIcon-interfaceForeground: #75beff;
+--vscode-symbolIcon-keyForeground: #cccccc;
+--vscode-symbolIcon-keywordForeground: #cccccc;
+--vscode-symbolIcon-methodForeground: #b180d7;
+--vscode-symbolIcon-moduleForeground: #cccccc;
+--vscode-symbolIcon-namespaceForeground: #cccccc;
+--vscode-symbolIcon-nullForeground: #cccccc;
+--vscode-symbolIcon-numberForeground: #cccccc;
+--vscode-symbolIcon-objectForeground: #cccccc;
+--vscode-symbolIcon-operatorForeground: #cccccc;
+--vscode-symbolIcon-packageForeground: #cccccc;
+--vscode-symbolIcon-propertyForeground: #cccccc;
+--vscode-symbolIcon-referenceForeground: #cccccc;
+--vscode-symbolIcon-snippetForeground: #cccccc;
+--vscode-symbolIcon-stringForeground: #cccccc;
+--vscode-symbolIcon-structForeground: #cccccc;
+--vscode-symbolIcon-textForeground: #cccccc;
+--vscode-symbolIcon-typeParameterForeground: #cccccc;
+--vscode-symbolIcon-unitForeground: #cccccc;
+--vscode-symbolIcon-variableForeground: #75beff;
+--vscode-actionBar-toggledBackground: rgba(0, 127, 212, 0.4);
+--vscode-editor-lineHighlightBorder: #282828;
+--vscode-editor-rangeHighlightBackground: rgba(255, 255, 255, 0.04);
+--vscode-editor-symbolHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editorCursor-foreground: #aeafad;
+--vscode-editorMultiCursor-primary-foreground: #aeafad;
+--vscode-editorMultiCursor-secondary-foreground: #aeafad;
+--vscode-editorWhitespace-foreground: rgba(227, 228, 226, 0.16);
+--vscode-editorLineNumber-foreground: #858585;
+--vscode-editorIndentGuide-background: rgba(227, 228, 226, 0.16);
+--vscode-editorIndentGuide-activeBackground: rgba(227, 228, 226, 0.16);
+--vscode-editorIndentGuide-background1: #404040;
+--vscode-editorIndentGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground1: #707070;
+--vscode-editorIndentGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorActiveLineNumber-foreground: #c6c6c6;
+--vscode-editorLineNumber-activeForeground: #c6c6c6;
+--vscode-editorRuler-foreground: #5a5a5a;
+--vscode-editorCodeLens-foreground: #999999;
+--vscode-editorBracketMatch-background: rgba(0, 100, 0, 0.1);
+--vscode-editorBracketMatch-border: #888888;
+--vscode-editorOverviewRuler-border: rgba(127, 127, 127, 0.3);
+--vscode-editorGutter-background: #1e1e1e;
+--vscode-editorUnnecessaryCode-opacity: rgba(0, 0, 0, 0.67);
+--vscode-editorGhostText-foreground: rgba(255, 255, 255, 0.34);
+--vscode-editorOverviewRuler-rangeHighlightForeground: rgba(0, 122, 204, 0.6);
+--vscode-editorOverviewRuler-errorForeground: rgba(255, 18, 18, 0.7);
+--vscode-editorOverviewRuler-warningForeground: #cca700;
+--vscode-editorOverviewRuler-infoForeground: #3794ff;
+--vscode-editorBracketHighlight-foreground1: #ffd700;
+--vscode-editorBracketHighlight-foreground2: #da70d6;
+--vscode-editorBracketHighlight-foreground3: #179fff;
+--vscode-editorBracketHighlight-foreground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground6: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-unexpectedBracket-foreground: rgba(255, 18, 18, 0.8);
+--vscode-editorBracketPairGuide-background1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorUnicodeHighlight-border: #cca700;
+--vscode-editorOverviewRuler-bracketMatchForeground: #a0a0a0;
+--vscode-editor-linkedEditingBackground: rgba(255, 0, 0, 0.3);
+--vscode-editor-wordHighlightBackground: rgba(87, 87, 87, 0.72);
+--vscode-editor-wordHighlightStrongBackground: rgba(0, 73, 114, 0.72);
+--vscode-editor-wordHighlightTextBackground: rgba(87, 87, 87, 0.72);
+--vscode-editorOverviewRuler-wordHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(192, 160, 192, 0.8);
+--vscode-editorOverviewRuler-wordHighlightTextForeground: rgba(160, 160, 160, 0.8);
+--vscode-peekViewTitle-background: #252526;
+--vscode-peekViewTitleLabel-foreground: #ffffff;
+--vscode-peekViewTitleDescription-foreground: rgba(204, 204, 204, 0.7);
+--vscode-peekView-border: #3794ff;
+--vscode-peekViewResult-background: #252526;
+--vscode-peekViewResult-lineForeground: #bbbbbb;
+--vscode-peekViewResult-fileForeground: #ffffff;
+--vscode-peekViewResult-selectionBackground: rgba(51, 153, 255, 0.2);
+--vscode-peekViewResult-selectionForeground: #ffffff;
+--vscode-peekViewEditor-background: #001f33;
+--vscode-peekViewEditorGutter-background: #001f33;
+--vscode-peekViewEditorStickyScroll-background: #001f33;
+--vscode-peekViewResult-matchHighlightBackground: rgba(234, 92, 0, 0.3);
+--vscode-peekViewEditor-matchHighlightBackground: rgba(255, 143, 0, 0.6);
+--vscode-editorMarkerNavigationError-background: #f14c4c;
+--vscode-editorMarkerNavigationError-headerBackground: rgba(241, 76, 76, 0.1);
+--vscode-editorMarkerNavigationWarning-background: #cca700;
+--vscode-editorMarkerNavigationWarning-headerBackground: rgba(204, 167, 0, 0.1);
+--vscode-editorMarkerNavigationInfo-background: #3794ff;
+--vscode-editorMarkerNavigationInfo-headerBackground: rgba(55, 148, 255, 0.1);
+--vscode-editorMarkerNavigation-background: #1e1e1e;
+--vscode-editorHoverWidget-highlightForeground: #2aaaff;
+--vscode-editorSuggestWidget-background: #252526;
+--vscode-editorSuggestWidget-border: #454545;
+--vscode-editorSuggestWidget-foreground: #d4d4d4;
+--vscode-editorSuggestWidget-selectedForeground: #ffffff;
+--vscode-editorSuggestWidget-selectedBackground: #04395e;
+--vscode-editorSuggestWidget-highlightForeground: #2aaaff;
+--vscode-editorSuggestWidget-focusHighlightForeground: #2aaaff;
+--vscode-editorSuggestWidgetStatus-foreground: rgba(212, 212, 212, 0.5);
+--vscode-diffEditor-move-border: rgba(139, 139, 139, 0.61);
+--vscode-diffEditor-moveActive-border: #ffa500;
+--vscode-diffEditor-unchangedRegionShadow: #000000;
+--vscode-editor-foldBackground: rgba(38, 79, 120, 0.3);
+--vscode-editorGutter-foldingControlForeground: #c5c5c5; }
+
+.mtk1 { color: #d4d4d4; }
+.mtk2 { color: #1e1e1e; }
+.mtk3 { color: #cc6666; }
+.mtk4 { color: #97009c; }
+.mtk5 { color: #e97366; }
+.mtk6 { color: #00979c; }
+.mtk7 { color: #5e6d03; }
+.mtk8 { color: #9cdcfe; }
+.mtk9 { color: #ce9178; }
+.mtk10 { color: #b5cea8; }
+.mtk11 { color: #608b4e; }
+.mtk12 { color: #727c81; }
+.mtk13 { color: #569cd6; }
+.mtk14 { color: #dcdcdc; }
+.mtk15 { color: #808080; }
+.mtk16 { color: #f44747; }
+.mtk17 { color: #c586c0; }
+.mtk18 { color: #a79873; }
+.mtk19 { color: #dd6a6f; }
+.mtk20 { color: #5bb498; }
+.mtk21 { color: #909090; }
+.mtk22 { color: #778899; }
+.mtk23 { color: #ff00ff; }
+.mtk24 { color: #b46695; }
+.mtk25 { color: #ff0000; }
+.mtk26 { color: #4f76ac; }
+.mtk27 { color: #3dc9b0; }
+.mtk28 { color: #74b0df; }
+.mtk29 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
+.mtks { text-decoration: line-through; }
+.mtks.mtku { text-decoration: underline line-through; text-underline-position: under; }</style><style type="text/css" media="screen"></style><style type="text/css" id="react-draggable-style-el">.react-draggable-transparent-selection *::-moz-selection {all: inherit;}
+.react-draggable-transparent-selection *::selection {all: inherit;}
+</style></head><body class="enable-motion" style=""><div id="__next"><div class="MuiStack-root css-zf0iqh"><header><div class="header-small_toolbar__yvrzx" role="banner"><a class="header-small_logo__fLyJP" href="https://wokwi.com/"><svg width="80" height="24" viewBox="0 0 69.532 16.413"><g fill="#fff"><path d="M4.192 15.53c-.63-.737-.765-1.863-.32-2.684.405-.748.346-1.136-.583-3.84-.937-2.73-1.116-3.05-1.935-3.455-1.916-.949-1.765-3.452.242-4 1.892-.518 3.374 1.385 2.418 3.105-.416.75-.36 1.113.593 3.865.969 2.796 1.125 3.072 1.964 3.457 1.192.548 1.62 1.883.969 3.024-.65 1.14-2.566 1.442-3.348.528zm1.912-1.003c.465-.38.426-.796-.103-1.098-.238-.136-.545-.186-.681-.111-.423.23-.407 1.014.025 1.26.226.129.567.106.76-.05zM2.612 4.17c.346-.189.224-1.077-.18-1.308-.337-.192-.995.269-.98.687.013.386.809.812 1.16.621zM11.945 15c-.63-.737-.765-1.863-.32-2.684.405-.748.346-1.136-.583-3.84-.937-2.73-1.116-3.05-1.935-3.455-1.916-.949-1.765-3.452.242-4 1.892-.518 3.374 1.385 2.418 3.105-.416.75-.36 1.113.593 3.865.969 2.796 1.125 3.072 1.964 3.457 1.192.548 1.62 1.883.969 3.024-.65 1.14-2.566 1.442-3.348.528zm1.912-1.003c.465-.38.426-.796-.103-1.098-.238-.136-.545-.186-.681-.111-.423.23-.407 1.014.025 1.26.226.129.567.106.76-.05zM10.365 3.64c.346-.189.224-1.077-.18-1.308-.337-.192-.995.269-.98.687.013.386.809.812 1.16.621z"></path><path d="M4.543 16.22c-2.027-1.187-1.3-4.185 1.015-4.185.75 0 .816-.177 1.864-1.169s2.833-2.627 4.035-3.221c.324.459.571 1.614.607 1.748-.773 0-2.75 1.515-3.588 2.537-.81.989-.985 1.4-.928 2.188.052.73-.081 1.111-.542 1.54-.779.729-1.786.958-2.463.562zm1.56-1.695c.215-.56-.025-.902-.634-.902-.594 0-.896.408-.693.938.198.516 1.125.49 1.327-.036zM13.185 12.06s.283-.565 1.392-3.717c1.44-4.077 1.509-4.406 1.096-5.263-.887-1.84.835-3.684 2.691-2.88.694.3.931.585 1.236 1.49.332.983.303 1.19-.244 1.72-.342.331-.896.716-1.232.856-.47.196-.971 1.255-2.185 4.618-1.443 3.997-1.06 2.817-.67 3.541.961 1.79-.26.492-2.084-.365zm5.066-9.85c-.006-.6-.355-.829-.922-.605-.254.101-.485.309-.512.462-.085.474.537.951 1 .768.241-.095.437-.377.434-.624z"></path><g><path d="M26.397 15.57q-2.378.363-4.232-.922-1.97-1.37-2.308-3.953-.413-3.147.978-5.985 1.557-3.15 4.441-3.59 2.774-.424 4.3.717 1.592 1.186 1.988 4.205.413 3.147-.84 5.918-1.443 3.17-4.327 3.61zm-.876-12.586q-2.066.315-3.209 2.753-1.057 2.24-.735 4.695.23 1.756 1.58 2.672 1.292.861 2.995.601 2.05-.312 3.09-2.744.928-2.173.602-4.657-.285-2.173-1.303-2.918-.971-.715-3.02-.402zM35.637.98a.872.872 0 00-.652.275.947.947 0 00-.257.671c0 1.224-.039 3.081-.102 5.354.318-.509.773-.846 1.271-.896a2.28 2.28 0 01.467 0 63.88 63.88 0 01.082-1.684c.073-1.255.11-2.18.11-2.774a.93.93 0 00-.267-.67.853.853 0 00-.652-.276zm6.825.156c-.257 0-.49.12-.698.358l-2.636 3.06a52.882 52.882 0 01-1.944 2.099c.547.32.914.88 1.074 1.479.945-.925 1.887-1.847 2.771-2.816 1.58-1.752 2.37-2.83 2.37-3.234a.898.898 0 00-.284-.67.912.912 0 00-.653-.276zm-4.208 8.307c-.12.378-.352.707-.712.92a1.978 1.978 0 01-.754.26l2.33 2.345c1.721 1.635 3.047 2.453 3.978 2.453.264 0 .475-.117.634-.35.129-.19.193-.388.193-.597 0-.447-.242-.75-.726-.91a3.81 3.81 0 01-1.13-.605l-.964-.81a106.213 106.213 0 01-2.849-2.706zm-3.69.229a210.995 210.995 0 00-.093 5.105c0 .294.085.567.257.818.208.306.487.459.836.459.532 0 .8-.303.8-.91l.007-4.509c-.606-.039-1.208-.324-1.664-.783a3.926 3.926 0 01-.143-.18zm1.333-3.288c2.338-.235 3.256 3.024 1.645 3.98-.912.54-2.076.252-2.835-.512-.473-.56-.589-.946-.47-1.564.202-1.047.88-1.826 1.66-1.904zm-.262 2.289c.156.58.552.714 1.044.355.48-.35.484-.858.007-1.167-.464-.3-1.198.267-1.051.812zM57.077 15.93c-.282 0-.53-.08-.744-.239-.245-.184-.367-.41-.367-.68-.282-.74-.46-1.344-.533-1.81-.074-.465-.316-1.784-.726-3.958-.312-1.648-.52-2.97-.625-3.969-.545 2.021-1.13 3.733-1.754 5.135-.723 1.623-1.191 2.894-1.406 3.812.074.141.11.279.11.414 0 .275-.122.502-.367.68-.22.165-.471.248-.753.248-.827 0-1.24-.371-1.24-1.112l-.285-1.167-1.001-4.5c-.398-1.52-1.078-3.697-2.04-6.532a1.225 1.225 0 01-.064-.368c0-.569.322-.854.965-.854.398 0 .704.218.918.652.11.22.334.855.67 1.902.362 1.108.723 2.443 1.085 4.005l.89 4.06c.656-1.519 1.308-3.368 1.957-5.548.399-1.33.702-2.25.91-2.765.551-1.354 1.087-2.03 1.607-2.03.43 0 .732.217.91.652.22.527.444 1.782.67 3.766.123 1.005.331 2.211.625 3.62l.79 3.61c.82-1.972 1.847-4.64 3.077-8.001.068-.184.22-.763.46-1.737.177-.716.395-1.273.652-1.671.22-.337.508-.506.863-.506.619 0 1.643.43 1.643 1.043 0 .104-.813.286-1.009.794l-.367.993-.505 1.635-2.729 6.632c-.25.729-.683 1.788-1.295 3.178-.22.41-.551.616-.992.616z"></path></g><path d="M67.427 7.01a64.95 64.95 0 00-.211 5.107c0 .43.012.959.037 1.59.024.63.036 1.16.036 1.589-.623 1.156-1.85.737-2.112-.056.165-2.14.17-1.952.165-3.003 0-1.415.086-3.182.257-5.3.955-2.293 2.369-1.893 2.369-1.893.038.758-.579 1.553-.54 1.966zM67.077.33c2.337-.235 3.256 3.024 1.645 3.98-.912.54-2.076.252-2.835-.512-.473-.56-.589-.945-.47-1.564.201-1.047.88-1.826 1.66-1.904zm-.262 2.289c.156.58.551.714 1.043.355.48-.35.484-.858.007-1.167-.463-.3-1.198.267-1.05.812z"></path></g></svg></a><div class="project-page_topButtons__E_rbw"><div role="group" class="MuiButtonGroup-root MuiButtonGroup-contained css-5kthed"><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall Mui-disabled MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedContained MuiButtonGroup-groupedContainedHorizontal MuiButtonGroup-groupedContainedPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedContained MuiButtonGroup-groupedContainedHorizontal MuiButtonGroup-groupedContainedPrimary MuiButtonGroup-firstButton css-126e75q" tabindex="-1" type="button" disabled=""><span class="MuiButton-startIcon MuiButton-iconSizeSmall css-u0g51i"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M15,9H5V5H15M12,19A3,3 0 0,1 9,16A3,3 0 0,1 12,13A3,3 0 0,1 15,16A3,3 0 0,1 12,19M17,3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V7L17,3Z" style="fill: currentcolor;"></path></svg></span><span class="MuiBox-root css-9hblc8">Save</span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedContained MuiButtonGroup-groupedContainedHorizontal MuiButtonGroup-groupedContainedPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButtonGroup-lastButton css-1vv51b1" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="m7 10 5 5 5-5z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall project-page_button__5z1or css-9q40pm" tabindex="0" type="button"><span class="MuiButton-startIcon MuiButton-iconSizeSmall css-u0g51i"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z" style="fill: currentcolor;"></path></svg></span>Share<span class="MuiTouchRipple-root css-w0pj6f"></span></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-6ci2yv" tabindex="0" type="button" aria-label="Like this project"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FavoriteIcon"><path d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button><div class="MuiBox-root css-hrpje2">Corizo_Major_proj Copy <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1wk278" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditIcon"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div></div><div class="header-small_spacer___h_xx"></div><nav class="header-small_menu__hiyiT"><a href="https://docs.wokwi.com/?utm_source=wokwi" target="_blank">Docs</a></nav><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-126e75q" tabindex="0" type="button"><span class="user-menu_altContent__kVmnu"><span class="user-menu_alt1__5Xyya">Sign in</span><span class="user-menu_alt2___1kYx">Sign up</span></span><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div></header><main class="project-page_main__KMKhI"><div class="workbench-desktop_container__LDB8z"><div class="sc-kPTPQs iPTNAK SplitPane vertical workbench-desktop_splitPane__nOV1_"><div class="sc-bgqQcB cqSVCo Pane vertical workbench-desktop_splitPane__nOV1_" style="flex-basis: 768px;"><div class="sc-ewnqHT ikqMiO" style="background-color: black;"></div><div class="sc-gTRrQi bMOrrd" style="min-width: 50px;"><div class="workbench-desktop_editor__AmDGz"><div class="tabs_tabs__0p32m"><button class="tabs_tab__iUAy8 tabs_active__IguNq">sketch.ino</button><button class="tabs_tab__iUAy8">diagram.json</button><button class="tabs_tab__iUAy8">libraries.txt</button><button class="tabs_tab__iUAy8">Library Manager</button><button class="tabs_dropdown__6PGPX"><svg viewBox="0 0 24 24" role="presentation" style="width: 20px; height: 20px;"><path d="M7,10L12,15L17,10H7Z" style="fill: currentcolor;"></path></svg></button></div><div class="code-editor_editorContainer__hSbk1 dark" style=""><section class="code-editor_wrapper__S_Mle" style="display: flex; position: relative; text-align: initial; width: 100%; height: 100%;"><div style="width: 100%; --vscode-editorCodeLens-lineHeight: 16px; --vscode-editorCodeLens-fontSize: 12px; --vscode-editorCodeLens-fontFeatureSettings: &quot;liga&quot; off, &quot;calt&quot; off;" data-keybinding-context="1" data-mode-id="arduino"><div class="monaco-editor no-user-select  showUnused showDeprecated vs-dark" role="code" data-uri="vfs:sketch.ino" style="width: 768px; height: 703px;"><div data-mprt="3" class="overflow-guard" style="width: 768px; height: 703px;"><div class="margin" role="presentation" aria-hidden="true" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: -2481px; height: 4104px; width: 83px;"><div class="glyph-margin" style="left: 0px; width: 19px; height: 4104px;"></div><div class="margin-view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="margin-view-overlays" role="presentation" aria-hidden="true" style="position: absolute; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 19px; letter-spacing: 0px; width: 83px; height: 4104px;"><div style="top:2470px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">131</div></div><div style="top:2489px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">132</div></div><div style="top:2508px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">133</div></div><div style="top:2527px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">134</div></div><div style="top:2546px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">135</div></div><div style="top:2565px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">136</div></div><div style="top:2584px;height:19px;"><div class="current-line current-line-margin-both" style="width:83px"></div><div class="line-numbers active-line-number" style="left:19px;width:38px;">137</div></div><div style="top:2603px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">138</div></div><div style="top:2622px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">139</div></div><div style="top:2641px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">140</div></div><div style="top:2660px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">141</div></div><div style="top:2679px;height:19px;"><div class="cldr codicon codicon-folding-expanded" title="Click to collapse the range." style="left:57px;width:26px;"></div><div class="line-numbers" style="left:19px;width:38px;">142</div></div><div style="top:2698px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">143</div></div><div style="top:2717px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">144</div></div><div style="top:2736px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">145</div></div><div style="top:2755px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">146</div></div><div style="top:2774px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">147</div></div><div style="top:2793px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">148</div></div><div style="top:2812px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">149</div></div><div style="top:2831px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">150</div></div><div style="top:2850px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">151</div></div><div style="top:2869px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">152</div></div><div style="top:2888px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">153</div></div><div style="top:2907px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">154</div></div><div style="top:2926px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">155</div></div><div style="top:2945px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">156</div></div><div style="top:2964px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">157</div></div><div style="top:2983px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">158</div></div><div style="top:3002px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">159</div></div><div style="top:3021px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">160</div></div><div style="top:3040px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">161</div></div><div style="top:3059px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">162</div></div><div style="top:3078px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">163</div></div><div style="top:3097px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">164</div></div><div style="top:3116px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">165</div></div><div style="top:3135px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">166</div></div><div style="top:3154px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">167</div></div><div style="top:3173px;height:19px;"><div class="line-numbers" style="left:19px;width:38px;">168</div></div></div><div class="glyph-margin-widgets" style="position: absolute; top: 0px;"></div></div><div class="monaco-scrollable-element editor-scrollable vs-dark" role="presentation" data-mprt="6" style="position: absolute; overflow: hidden; left: 83px; height: 703px; width: 685px;"><div class="lines-content monaco-editor-background" style="position: absolute; overflow: hidden; width: 1.67772e+07px; height: 1.67772e+07px; transform: translate3d(0px, 0px, 0px); contain: strict; top: -2481px; left: 0px;"><div class="view-overlays" role="presentation" aria-hidden="true" style="position: absolute; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 19px; letter-spacing: 0px; height: 0px; width: 685px;"><div style="top:2470px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2489px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2508px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2527px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2546px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2565px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2584px;height:19px;"><div class="current-line current-line-exact" style="width:685px;"></div><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2603px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2622px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2641px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2660px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2679px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2698px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:15.3984375px;width:7.69921875px"></div></div><div style="top:2717px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div><div class="core-guide core-guide-indent lvl-1 vertical" style="left:15.3984375px;width:7.69921875px"></div></div><div style="top:2736px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2755px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2774px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2793px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2812px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2831px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2850px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2869px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2888px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2907px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2926px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2945px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2964px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:2983px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3002px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3021px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3040px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3059px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3078px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3097px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3116px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3135px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3154px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div><div style="top:3173px;height:19px;"><div class="core-guide core-guide-indent lvl-0 indent-active vertical" style="left:0px;width:7.69921875px"></div></div></div><div role="presentation" aria-hidden="true" class="view-rulers"></div><div class="view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="view-lines monaco-mouse-cursor-text" role="presentation" aria-hidden="true" data-mprt="8" style="position: absolute; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 19px; letter-spacing: 0px; width: 685px; height: 4104px;"><div style="top:2470px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN3_3</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;3</span></span></div><div style="top:2489px;height:19px;" class="view-line"><span><span></span></span></div><div style="top:2508px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Enable&nbsp;motor&nbsp;4&nbsp;(right&nbsp;wheel&nbsp;2)</span></span></div><div style="top:2527px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN2_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">LOW</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;4</span></span></div><div style="top:2546px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN3_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;4</span></span></div><div style="top:2565px;height:19px;" class="view-line"><span><span></span></span></div><div style="top:2584px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_1</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">255</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;</span></span></div><div style="top:2603px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_2</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">255</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;</span></span></div><div style="top:2622px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_3</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">255</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;</span></span></div><div style="top:2641px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">255</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;</span></span></div><div style="top:2660px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk14 bracket-highlighting-1">}</span></span></div><div style="top:2679px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk13">else</span><span class="mtk14 bracket-highlighting-1">{</span></span></div><div style="top:2698px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk5 mtkb">Serial</span><span class="mtk14">.</span><span class="mtk5">println</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk9">"It&nbsp;is&nbsp;Terrian&nbsp;-B,&nbsp;Go&nbsp;slow"</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span></span></div><div style="top:2717px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_1</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Enable&nbsp;motor&nbsp;1&nbsp;(left&nbsp;wheel&nbsp;1)</span></span></div><div style="top:2736px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN2_1</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">LOW</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;1</span></span></div><div style="top:2755px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN3_1</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;1</span></span></div><div style="top:2774px;height:19px;" class="view-line"><span><span></span></span></div><div style="top:2793px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_2</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Enable&nbsp;motor&nbsp;2&nbsp;(left&nbsp;wheel&nbsp;2)</span></span></div><div style="top:2812px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN2_2</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">LOW</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;2</span></span></div><div style="top:2831px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN3_2</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;2</span></span></div><div style="top:2850px;height:19px;" class="view-line"><span><span></span></span></div><div style="top:2869px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_3</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Enable&nbsp;motor&nbsp;3&nbsp;(right&nbsp;wheel&nbsp;1)</span></span></div><div style="top:2888px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN2_3</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">LOW</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;3</span></span></div><div style="top:2907px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN3_3</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;3</span></span></div><div style="top:2926px;height:19px;" class="view-line"><span><span></span></span></div><div style="top:2945px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Enable&nbsp;motor&nbsp;4&nbsp;(right&nbsp;wheel&nbsp;2)</span></span></div><div style="top:2964px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN2_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">LOW</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;4</span></span></div><div style="top:2983px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">digitalWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN3_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk6">HIGH</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk12">//&nbsp;Forward&nbsp;direction&nbsp;for&nbsp;motor&nbsp;4</span></span></div><div style="top:3002px;height:19px;" class="view-line"><span><span></span></span></div><div style="top:3021px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_1</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">150</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;</span></span></div><div style="top:3040px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_2</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">150</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;</span></span></div><div style="top:3059px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_3</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">150</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span><span class="mtk1">&nbsp;</span></span></div><div style="top:3078px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">analogWrite</span><span class="mtk14 bracket-highlighting-2">(</span><span class="mtk1">IN1_4</span><span class="mtk14">,</span><span class="mtk1">&nbsp;</span><span class="mtk10">150</span><span class="mtk14 bracket-highlighting-2">)</span><span class="mtk14">;</span></span></div><div style="top:3097px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk14 bracket-highlighting-1">}</span></span></div><div style="top:3116px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5 mtkb">Serial</span><span class="mtk14">.</span><span class="mtk5">print</span><span class="mtk14 bracket-highlighting-1">(</span><span class="mtk1">a</span><span class="mtk14">.</span><span class="mtk1">acceleration</span><span class="mtk14">.</span><span class="mtk1">x</span><span class="mtk14 bracket-highlighting-1">)</span><span class="mtk14">;</span></span></div><div style="top:3135px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5 mtkb">Serial</span><span class="mtk14">.</span><span class="mtk5">print</span><span class="mtk14 bracket-highlighting-1">(</span><span class="mtk9">'\t'</span><span class="mtk14 bracket-highlighting-1">)</span><span class="mtk14">;</span></span></div><div style="top:3154px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5 mtkb">Serial</span><span class="mtk14">.</span><span class="mtk5">print</span><span class="mtk14 bracket-highlighting-1">(</span><span class="mtk1">a</span><span class="mtk14">.</span><span class="mtk1">acceleration</span><span class="mtk14">.</span><span class="mtk1">y</span><span class="mtk14 bracket-highlighting-1">)</span><span class="mtk14">;</span></span></div><div style="top:3173px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5 mtkb">Serial</span><span class="mtk14">.</span><span class="mtk5">print</span><span class="mtk14 bracket-highlighting-1">(</span><span class="mtk9">'\t'</span><span class="mtk14 bracket-highlighting-1">)</span><span class="mtk14">;</span></span></div></div><div data-mprt="1" class="contentWidgets" style="position: absolute; top: 0px;"></div><div role="presentation" aria-hidden="true" class="cursors-layer cursor-line-style cursor-solid"><div class="cursor  monaco-mouse-cursor-text " style="height: 19px; top: 2584px; left: 208px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 19px; letter-spacing: 0px; display: block; visibility: hidden; padding-left: 0px; width: 1.6px;"></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 671px; height: 12px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 12px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 671px;"></div></div><canvas class="decorationsOverviewRuler" aria-hidden="true" width="17" height="878" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; right: 0px; width: 14px; height: 703px; display: block;"></canvas><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical fade" style="position: absolute; width: 14px; height: 703px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 425px; left: 0px; width: 14px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 120px;"></div></div></div><div role="presentation" aria-hidden="true" style="width: 768px;" class="scroll-decoration"></div><textarea data-mprt="7" class="inputarea monaco-mouse-cursor-text" wrap="off" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" aria-label="Editor content;Press Alt+F1 for Accessibility Options." aria-required="false" tabindex="0" role="textbox" aria-roledescription="editor" aria-multiline="true" aria-autocomplete="both" style="tab-size: 15.3984px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 19px; letter-spacing: 0px; top: 103px; left: 291px; width: 1px; height: 1px;"></textarea><div style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px;" class="monaco-editor-background textAreaCover margin"></div><div data-mprt="4" class="overlayWidgets" style="width: 768px;"><div class="sticky-widget" widgetid="editor.contrib.stickyScrollWidget" style="width: 754px; position: absolute; display: block; height: 19px; margin-left: 0px;"><div class="sticky-widget-line-numbers" role="none" style="width: 83px; --vscode-editorStickyScroll-foldingOpacityTransition: opacity 0.5s; height: 19px;"><span data-sticky-line-index="0" data-sticky-is-line-number="" class="sticky-line-number" style="line-height: 19px; width: 83px; height: 19px; z-index: 0; top: 0px;"><span class="sticky-line-number-inner" style="line-height: 19px; width: 38px; padding-left: 19px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; letter-spacing: 0px;">116</span><div class="codicon codicon-folding-expanded" data-sticky-is-folding-icon="" style="width: 19px; height: 19px; cursor: default; opacity: 0;"></div></span></div><div class="sticky-widget-lines-scrollable" style="--vscode-editorStickyScroll-scrollableWidth: 671px; height: 19px;"><div class="sticky-widget-lines" role="list" style="left: 0px;"><span data-sticky-line-index="0" data-sticky-is-line="" role="listitem" tabindex="0" class="sticky-line-content stickyLine116" style="line-height: 19px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; letter-spacing: 0px; height: 19px; z-index: 0; top: 0px;"><span><span class="mtk13">void</span><span class="mtk1">&nbsp;</span><span class="mtk7">loop</span><span class="mtk14 bracket-highlighting-0">(</span><span class="mtk14 bracket-highlighting-0">)</span><span class="mtk1">&nbsp;</span><span class="mtk14 bracket-highlighting-0">{</span></span></span></div></div></div></div><div data-mprt="9" class="minimap slider-mouseover" role="presentation" aria-hidden="true" style="position: absolute; left: 0px; width: 0px; height: 703px;"><div class="minimap-shadow-hidden" style="height: 703px;"></div><canvas width="0" height="878" style="position: absolute; left: 0px; width: 0px; height: 703px;"></canvas><canvas class="minimap-decorations-layer" width="0" height="878" style="position: absolute; left: 0px; width: 0px; height: 703px;"></canvas><div class="minimap-slider" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; width: 0px;"><div class="minimap-slider-horizontal" style="position: absolute; width: 0px; height: 0px;"></div></div></div><div role="presentation" aria-hidden="true" class="blockDecorations-container"></div></div><div data-mprt="2" class="overflowingContentWidgets"><div widgetid="editor.contrib.resizableContentHoverWidget" style="position: absolute; height: 70px; width: 372px; z-index: 50; display: none; visibility: hidden; max-width: 1536px; top: 166px; left: 137px;"><div class="monaco-sash vertical" style="left: 370px;"></div><div class="monaco-sash vertical disabled" style="left: -2px;"></div><div class="monaco-sash orthogonal-edge-north horizontal" style="top: -2px;"><div class="orthogonal-drag-handle end"></div></div><div class="monaco-sash orthogonal-edge-south horizontal disabled" style="top: 68px;"><div class="orthogonal-drag-handle end"></div></div><div class="monaco-hover hidden" tabindex="0" role="tooltip" style="max-width: 506.88px; max-height: 250px; --vscode-hover-maxWidth: 506.88px; width: 372px; height: 70px;"><div class="monaco-scrollable-element " role="presentation" style="position: relative; overflow: hidden;"><div class="monaco-hover-content" style="overflow: hidden; font-size: 14px; line-height: 1.35714; max-width: 506.88px; max-height: 250px; width: 372px; height: 70px;"><div class="hover-row"><div class="marker hover-contents" style="font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 19px; letter-spacing: 0px;"><span style="white-space: pre-wrap;">/sketch/sketch.ino: In function 'void loop()':<br>expected primary-expression before ')' token</span></div></div><div class="hover-row status-bar"><div class="actions"><div class="action-container" tabindex="0"><a class="action" role="button"><span>View Problem (Alt+F8)</span></a></div><div>No quick fixes available</div></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 362px; height: 10px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 362px;"></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical" style="position: absolute; width: 10px; height: 70px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 70px;"></div></div><div class="shadow"></div><div class="shadow"></div><div class="shadow"></div></div></div></div></div><div data-mprt="5" class="overflowingOverlayWidgets"></div></div><div class="context-view" aria-hidden="true" style="display: none;"></div></div></section></div></div></div></div><div style="position: relative;"><div role="presentation" class="sc-iVCKna jILvIB Resizer vertical workbench-desktop_splitPane__nOV1_" style="width: 1rem;"><div class="sc-dicizt knbFHj"><div></div><div class="sc-fFGjHI gbpnKg" style="transform: scale(0); flex: 0 0 0px; position: relative; transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; visibility: hidden;"><button>➡</button></div><div></div></div></div><div class="sc-gxYJeL NntKf" style="opacity: 1; width: 1px; background-color: rgba(120, 120, 120, 0.3); transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"></div><div class="sc-gxYJeL NntKf" style="opacity: 0; width: 4px; background: rgb(227, 242, 253); margin-left: -2px; transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; visibility: hidden;"></div></div><div class="sc-bgqQcB cqSVCo Pane vertical workbench-desktop_splitPane__nOV1_" style="flex-basis: 768px;"><div class="sc-ewnqHT ikqMiO" style="background-color: black;"></div><div class="sc-gTRrQi bMOrrd" style="min-width: 50px;"><div class="workbench-desktop_preview__AdZiG"><div class="tabs_tabs__0p32m"><button class="tabs_tab__iUAy8 tabs_active__IguNq">Simulation</button></div><div class="simulation_container___BvyD simulation_darkMode__Bnd9o"><div></div><div class="simulation_simulationControls__Jqtsp"><div class="MuiBox-root css-1ynyhby"><button class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default css-1yeoas6" tabindex="0" type="button" aria-label="Restart the simulation"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ReplayIcon"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div><div class="MuiBox-root css-1tanlhh"><button class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default css-1ohvc2h" tabindex="0" type="button" aria-label="Stop the simulation"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StopIcon"><path d="M6 6h12v12H6z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div><div class="MuiBox-root css-1tanlhh"><button class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default css-1ohvc2h" tabindex="0" type="button" aria-label="Pause"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="PauseIcon"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div></div><span class="simulation_simulationStatus__lDBTR"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" style="fill: currentcolor;"></path></svg><span class="simulation_timeText__tR870">00:19.172</span><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M12,16A3,3 0 0,1 9,13C9,11.88 9.61,10.9 10.5,10.39L20.21,4.77L14.68,14.35C14.18,15.33 13.17,16 12,16M12,3C13.81,3 15.5,3.5 16.97,4.32L14.87,5.53C14,5.19 13,5 12,5A8,8 0 0,0 4,13C4,15.21 4.89,17.21 6.34,18.65H6.35C6.74,19.04 6.74,19.67 6.35,20.06C5.96,20.45 5.32,20.45 4.93,20.07V20.07C3.12,18.26 2,15.76 2,13A10,10 0 0,1 12,3M22,13C22,15.76 20.88,18.26 19.07,20.07V20.07C18.68,20.45 18.05,20.45 17.66,20.06C17.27,19.67 17.27,19.04 17.66,18.65V18.65C19.11,17.2 20,15.21 20,13C20,12 19.81,11 19.46,10.1L20.67,8C21.5,9.5 22,11.18 22,13Z" style="fill: currentcolor;"></path></svg><span class="simulation_speedText__ecbqm">100%</span></span><div class="diagram-editor_viewer__mFJaI"><div class="diagram-editor_selectedPartInfo__cKsnd"><div>MPU6050 Accelerometer + Gyroscope<br><div class="MuiBox-root css-q80iy6"><div class="MuiBox-root css-12z0wuy"><div class="part-runtime-editor_title__cf7wx"><svg viewBox="0 0 24 24" role="presentation" class="part-runtime-editor_iconMargin__veBre" style="width: 1.5rem; height: 1.5rem;"><path d="M12,2L16,6H13V13.85L19.53,17.61L21,15.03L22.5,20.5L17,21.96L18.53,19.35L12,15.58L5.47,19.35L7,21.96L1.5,20.5L3,15.03L4.47,17.61L11,13.85V6H8L12,2Z" style="fill: currentcolor;"></path></svg>Acceleration</div>X: <input type="range" min="-2" max="2" step="0.05" value="0"><span class="part-runtime-editor_accelValue__s1Aa9">0 g</span><br> Y: <input type="range" min="-2" max="2" step="0.05" value="0"><span class="part-runtime-editor_accelValue__s1Aa9">0 g</span><br> Z: <input type="range" min="-2" max="2" step="0.05" value="1"><span class="part-runtime-editor_rotationValue__3KPG9">1 g</span><br></div><div class="MuiBox-root css-12z0wuy"><div class="part-runtime-editor_title__cf7wx"><svg viewBox="0 0 24 24" role="presentation" class="part-runtime-editor_iconMargin__veBre" style="width: 1.5rem; height: 1.5rem;"><path d="M8,14.25L4.75,11H7C7.25,5.39 9.39,1 12,1C14,1 15.77,3.64 16.55,7.45C20.36,8.23 23,10 23,12C23,13.83 20.83,15.43 17.6,16.3L17.89,14.27C19.8,13.72 21,12.91 21,12C21,10.94 19.35,10 16.87,9.5C16.95,10.29 17,11.13 17,12C17,18.08 14.76,23 12,23C10.17,23 8.57,20.83 7.7,17.6L9.73,17.89C10.28,19.8 11.09,21 12,21C13.66,21 15,16.97 15,12C15,11 14.95,10.05 14.85,9.15C13.95,9.05 13,9 12,9L10.14,9.06L10.43,7.05L12,7C12.87,7 13.71,7.05 14.5,7.13C14,4.65 13.06,3 12,3C10.46,3 9.18,6.5 9,11H11.25L8,14.25M14.25,16L11,19.25V17C5.39,16.75 1,14.61 1,12C1,10.17 3.17,8.57 6.4,7.7L6.11,9.73C4.2,10.28 3,11.09 3,12C3,13.54 6.5,14.82 11,15V12.75L14.25,16Z" style="fill: currentcolor;"></path></svg>Rotation</div>X: <input type="range" min="-250" max="250" step="5" value="0"><span class="part-runtime-editor_rotationValue__3KPG9">0°/sec</span><br> Y: <input type="range" min="-250" max="250" step="5" value="0"><span class="part-runtime-editor_rotationValue__3KPG9">0°/sec</span><br> Z: <input type="range" min="-250" max="250" step="5" value="0"><span class="part-runtime-editor_accelValue__s1Aa9">0°/sec</span></div><div class="MuiBox-root css-0"><div class="part-runtime-editor_title__cf7wx"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M15 13V5A3 3 0 0 0 9 5V13A5 5 0 1 0 15 13M12 4A1 1 0 0 1 13 5V8H11V5A1 1 0 0 1 12 4Z" style="fill: currentcolor;"></path></svg>Temperature</div><input type="range" min="-40" max="85" step="0.1" value="24">24.0°C <br></div></div></div> <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium diagram-editor_closeButton__UxbK5 css-1egpgfe" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CloseIcon"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span></button></div><div tabindex="0" style="cursor: pointer; flex: 1 1 0%;"><div style="transform-origin: 0px 0px 0px; transform: matrix(1.5, 0, 0, 1.5, 69.2472, 15.3);"><div class="react-draggable" style="transform: translate(0px, 0px);"><wokwi-arduino-mega class="diagram-part_diagramItem__IbJC1" id="mega" data-draggable="true" wokwi-controller="wokwi-arduino-mega" style="top: 0px; left: 0px; transform: rotate(0deg); text-rendering: geometricprecision; user-select: none;" ledpower="true" led13="true" ledtx="true"><template shadowrootmode="open"><!---->
+      <svg width="102.66mm" height="50.80mm" version="1.1" viewBox="-4 0 102.66 50.80" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <g id="led-body" fill="#eee">
+            <rect x="0" y="0" height="1.2" width="2.6" fill="#c6c6c6"></rect>
+            <rect x="0.6" y="-0.1" width="1.35" height="1.4" stroke="#aaa" stroke-width="0.05"></rect>
+          </g>
+        </defs>
+
+        <filter id="ledFilter" x="-0.8" y="-0.8" height="2.2" width="2.8">
+          <fegaussianblur stdDeviation="0.5"></fegaussianblur>
+        </filter>
+
+        <!--?lit$400228564$-->
+  <pattern id="pins-female" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="2.54" height="2.54" fill="#333"></rect>
+    <rect x="1.079" y="0.896" width="0.762" height="0.762" style="fill: #191919"></rect>
+    <path transform="translate(1.079, 1.658) rotate(180 0 0)" d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z" style="opacity: 0.25"></path>
+    <path transform="translate(1.841, 1.658) rotate(90 0 0)" d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z" style="opacity: 0.3; fill: #fff"></path>
+    <path transform="translate(1.841, 0.896)" d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z" style="opacity: 0.15; fill: #fff"></path>
+    <path transform="translate(1.079, 0.896) rotate(270 0 0)" d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z" style="opacity: 0.35"></path>
+  </pattern>
+
+
+        <pattern id="pin-male" width="2.54" height="4.80" patternUnits="userSpaceOnUse">
+          <rect ry="0.3" rx="0.3" width="2.12" height="4.80" fill="#565656"></rect>
+          <ellipse cx="1" cy="1.13" rx="0.5" ry="0.5" fill="#aaa"></ellipse>
+          <ellipse cx="1" cy="3.67" rx="0.5" ry="0.5" fill="#aaa"></ellipse>
+        </pattern>
+
+        <!-- PCB -->
+        <path d="M2.105.075v50.653h94.068v-1.206l2.412-2.412V14.548l-2.412-2.413V2.487L93.785.075zm14.443.907a1.505 1.505 0 01.03 0 1.505 1.505 0 011.504 1.505 1.505 1.505 0 01-1.504 1.506 1.505 1.505 0 01-1.506-1.506A1.505 1.505 0 0116.548.982zm71.154 0a1.505 1.505 0 01.03 0 1.505 1.505 0 011.505 1.505 1.505 1.505 0 01-1.505 1.506 1.505 1.505 0 01-1.506-1.506A1.505 1.505 0 0187.702.982zM64.818 15.454a1.505 1.505 0 011.504 1.506 1.505 1.505 0 01-1.504 1.505 1.505 1.505 0 01-1.506-1.505 1.505 1.505 0 011.506-1.506zm0 26.532a1.505 1.505 0 011.504 1.506 1.505 1.505 0 01-1.504 1.505 1.505 1.505 0 01-1.506-1.505 1.505 1.505 0 011.506-1.506zm-49.476 4.825a1.505 1.505 0 01.03 0 1.505 1.505 0 011.505 1.504 1.505 1.505 0 01-1.506 1.506 1.505 1.505 0 01-1.505-1.506 1.505 1.505 0 011.476-1.504zm78.39 0a1.505 1.505 0 01.03 0 1.505 1.505 0 011.504 1.504 1.505 1.505 0 01-1.504 1.506 1.505 1.505 0 01-1.506-1.506 1.505 1.505 0 011.476-1.504z" fill="#2b6b99"></path>
+
+        <!-- reset button -->
+        <rect transform="rotate(269.81)" x="-28.046" y="68.977" width="6.2151" height="6.0268" fill="#9b9b9b"></rect>
+        <g fill="#e6e6e6">
+          <rect transform="rotate(269.81)" x="-29.725" y="69.518" width="1.695" height=".84994"></rect>
+          <rect transform="rotate(269.81)" x="-29.741" y="71.4" width="1.695" height=".84994"></rect>
+          <rect transform="rotate(269.81)" x="-29.764" y="73.425" width="1.695" height=".84994"></rect>
+          <rect transform="rotate(269.81)" x="-21.831" y="73.59" width="1.695" height=".84994"></rect>
+          <rect transform="rotate(269.81)" x="-21.854" y="69.517" width="1.695" height=".84994"></rect>
+        </g>
+        <circle id="reset-button" transform="rotate(269.81)" cx="-24.9" cy="72.092" r="1.5405" fill="#960000" stroke="#777" stroke-width="0.15" tabindex="0"></circle>
+
+        <!-- USB Connector -->
+        <g style="fill:#b3b2b2;stroke:#b3b2b2;stroke-width:0.010">
+          <ellipse cx="3.84" cy="9.56" rx="1.12" ry="1.03"></ellipse>
+          <ellipse cx="3.84" cy="21.04" rx="1.12" ry="1.03"></ellipse>
+          <g fill="#000">
+            <rect width="11" height="11.93" x="-0.05" y="9.72" rx="0.2" ry="0.2" opacity="0.24"></rect>
+          </g>
+          <rect x="-4" y="9.37" height="11.85" width="14.46"></rect>
+          <rect x="-4" y="9.61" height="11.37" width="14.05" fill="#706f6f"></rect>
+          <rect x="-4" y="9.71" height="11.17" width="13.95" fill="#9d9d9c"></rect>
+        </g>
+
+        <!-- Power jack -->
+        <g stroke-width=".254" fill="black" transform="translate(0 -4)">
+          <path d="m-2.58 48.53v2.289c0 0.279 0.228 0.508 0.508 0.508h1.722c0.279 0 0.508-0.228 0.508-0.508v-2.289z" fill="#252728" opacity=".3"></path>
+          <path d="m11.334 42.946c0-0.558-0.509-1.016-1.132-1.016h-10.043v9.652h10.043c0.622 0 1.132-0.457 1.132-1.016z" opacity=".3"></path>
+          <path d="m-2.072 40.914c-0.279 0-0.507 0.204-0.507 0.454v8.435c0 0.279 0.228 0.507 0.507 0.507h1.722c0.279 0 0.507-0.228 0.507-0.507v-8.435c0-0.249-0.228-0.454-0.507-0.454z"></path>
+          <path d="m-2.58 48.784v1.019c0 0.279 0.228 0.508 0.508 0.508h1.722c0.279 0 0.508-0.228 0.508-0.508v-1.019z" opacity=".3"></path>
+          <path d="m11.334 43.327c0.139 0 0.254 0.114 0.254 0.254v4.064c0 0.139-0.114 0.254-0.254 0.254"></path>
+          <path d="m11.334 42.438c0-0.558-0.457-1.016-1.016-1.016h-10.16v8.382h10.16c0.558 0 1.016-0.457 1.016-1.016z"></path>
+          <path d="m10.064 49.804h-9.906v-8.382h1.880c-1.107 0-1.363 1.825-1.363 3.826 0 1.765 1.147 3.496 3.014 3.496h6.374z" opacity=".3"></path>
+          <rect x="10.064" y="41.422" width=".254" height="8.382" fill="#ffffff" opacity=".2"></rect>
+          <path d="m10.318 48.744v1.059c0.558 0 1.016-0.457 1.016-1.016v-0.364c0 0.313-1.016 0.320-1.016 0.320z" opacity=".3"></path>
+        </g>
+
+        <!-- Pin Headers -->
+        <g transform="translate(18.4 1.07)">
+          <rect height="2.54" fill="url(#pins-female)" width="25.779999999999998"></rect>
+        </g>
+        <g transform="translate(44.81 1.07)">
+          <rect height="2.54" fill="url(#pins-female)" width="20.7"></rect>
+        </g>
+        <g transform="translate(66 1.07)">
+          <rect height="2.54" fill="url(#pins-female)" width="20.7"></rect>
+        </g>
+        <g transform="translate(27.93 47.5)">
+          <rect height="2.54" fill="url(#pins-female)" width="20.7"></rect>
+        </g>
+        <g transform="translate(49.63 47.5)">
+          <rect height="2.54" fill="url(#pins-female)" width="20.7"></rect>
+        </g>
+        <g transform="translate(71.34 47.5)">
+          <rect height="2.54" fill="url(#pins-female)" width="20.7"></rect>
+        </g>
+        <g transform="translate(90.1 0.8)">
+          <rect fill="url(#pins-female)" width="5.46" height="45.72"></rect>
+        </g>
+
+        <!-- MCU -->
+        <rect x="43" y="17.55" fill="#000" width="13.5" height="13.5" rx="0.5"></rect>
+
+        <!-- Programming Headers -->
+        <g transform="translate(61.5 21.09)">
+          <rect width="4.80" height="7" fill="url(#pin-male)"></rect>
+        </g>
+
+        <!-- LEDs -->
+        <g transform="translate(72.20 15.58)">
+          <use xlink:href="#led-body"></use>
+          <!--?lit$400228564$--><circle cx="1.3" cy="0.55" r="1.3" fill="#80ff80" filter="url(#ledFilter)"></circle>
+        </g>
+
+        <text fill="#fff">
+          <tspan x="68" y="16.75">PWR</tspan>
+        </text>
+
+        <g transform="translate(26 13.86)">
+          <use xlink:href="#led-body"></use>
+          <!--?lit$400228564$--><circle cx="1.3" cy="0.55" r="1.3" fill="#ff8080" filter="url(#ledFilter)"></circle>
+        </g>
+
+        <g transform="translate(26 18.52)">
+          <use xlink:href="#led-body"></use>
+          <!--?lit$400228564$--><circle cx="0.975" cy="0.55" r="1.3" fill="yellow" filter="url(#ledFilter)"></circle>
+        </g>
+
+        <g transform="translate(26 20.75)">
+          <use xlink:href="#led-body"></use>
+          <!--?lit$400228564$-->false
+        </g>
+
+        <text fill="#fff">
+          <tspan x="29.4" y="15">L</tspan>
+          <tspan x="29.4" y="19.8">TX</tspan>
+          <tspan x="29.4" y="22">RX</tspan>
+          <tspan x="26.5" y="20">&nbsp;</tspan>
+        </text>
+
+        <!-- Pin Labels -->
+        <rect x="28.27" y="7.6" width="31.5" height="0.16" fill="#fff"></rect>
+        <text fill="#fff" style="font-weight: 900">
+          <tspan x="40.84" y="9.8">PWM</tspan>
+        </text>
+
+        <rect x="60.5" y="11.8" width="25.4" height="0.16" fill="#fff"></rect>
+        <text fill="#fff" style="font-weight: 900">
+          <tspan x="65" y="14.2">COMMUNICATION</tspan>
+        </text>
+
+        <text transform="translate(22.6 3.4) rotate(270 0 0)" fill="#fff" style="font-size: 2px; text-anchor: end; font-family: monospace">
+          <tspan x="0" dy="2.54">AREF</tspan>
+          <tspan x="0" dy="2.54">GND</tspan>
+          <tspan x="0" dy="2.54">13</tspan>
+          <tspan x="0" dy="2.54">12</tspan>
+          <tspan x="0" dy="2.54">11</tspan>
+          <tspan x="0" dy="2.54">10</tspan>
+          <tspan x="0" dy="2.54">9</tspan>
+          <tspan x="0" dy="2.54">8</tspan>
+          <tspan x="0" dy="4.08">7</tspan>
+          <tspan x="0" dy="2.54">6</tspan>
+          <tspan x="0" dy="2.54">5</tspan>
+          <tspan x="0" dy="2.54">4</tspan>
+          <tspan x="0" dy="2.54">3</tspan>
+          <tspan x="0" dy="2.54">2</tspan>
+          <tspan x="0" dy="2.54">TX→ 1</tspan>
+          <tspan x="0" dy="2.54">RX← 0</tspan>
+          <tspan x="0" dy="3.34">TX3 14</tspan>
+          <tspan x="0" dy="2.54">RX3 15</tspan>
+          <tspan x="0" dy="2.54">TX2 16</tspan>
+          <tspan x="0" dy="2.54">RX2 17</tspan>
+          <tspan x="0" dy="2.54">TX1 18</tspan>
+          <tspan x="0" dy="2.54">RX1 19</tspan>
+          <tspan x="0" dy="2.54">SDA 20</tspan>
+          <tspan x="0" dy="2.54">SCL 21</tspan>
+          <tspan x="0" dy="2.54">&nbsp;</tspan>
+        </text>
+
+        <rect x="36" y="41.46" width="12.44" height="0.16" fill="#fff"></rect>
+        <rect x="50" y="41.46" width="39" height="0.16" fill="#fff"></rect>
+        <text fill="#fff" style="font-weight: 900">
+          <tspan x="39" y="40.96">POWER</tspan>
+          <tspan x="65" y="40.96">ANALOG IN</tspan>
+        </text>
+        <text transform="translate(30.19 47) rotate(270 0 0)" fill="#fff" style="font-weight: 700">
+          <tspan x="0" dy="2.54">IOREF</tspan>
+          <tspan x="0" dy="2.54">RESET</tspan>
+          <tspan x="0" dy="2.54">3.3V</tspan>
+          <tspan x="0" dy="2.54">5V</tspan>
+          <tspan x="0" dy="2.54">GND</tspan>
+          <tspan x="0" dy="2.54">GND</tspan>
+          <tspan x="0" dy="2.54">Vin</tspan>
+          <tspan x="0" dy="3.74">A0</tspan>
+          <tspan x="0" dy="2.54">A1</tspan>
+          <tspan x="0" dy="2.54">A2</tspan>
+          <tspan x="0" dy="2.54">A3</tspan>
+          <tspan x="0" dy="2.54">A4</tspan>
+          <tspan x="0" dy="2.54">A5</tspan>
+          <tspan x="0" dy="2.54">A6</tspan>
+          <tspan x="0" dy="2.54">A7</tspan>
+          <tspan x="0" dy="3.74">A8</tspan>
+          <tspan x="0" dy="2.54">A9</tspan>
+          <tspan x="0" dy="2.54">A10</tspan>
+          <tspan x="0" dy="2.54">A11</tspan>
+          <tspan x="0" dy="2.54">A12</tspan>
+          <tspan x="0" dy="2.54">A13</tspan>
+          <tspan x="0" dy="1.84">A14</tspan>
+          <tspan x="0" dy="1.84">A15</tspan>
+          <tspan x="0" dy="2.54">&nbsp;</tspan>
+        </text>
+
+        <!-- Logo -->
+        <text x="51.85" y="36" style="font-size:4px;font-weight:bold;line-height:1.25;fill:#fff">
+          Arduino MEGA
+        </text>
+      </svg>
+    </template></wokwi-arduino-mega></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 86px;"><span>mega:SCL</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 96px;"><span>mega:SDA</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 105px;"><span>mega:AREF</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 115px;"><span>mega:GND.1</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 125px;"><span>mega:13</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 134px;"><span>mega:12</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 144px;"><span>mega:11</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 153.5px;"><span>mega:10</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 163.5px;"><span>mega:9</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 173px;"><span>mega:8</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 186px;"><span>mega:7</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 196px;"><span>mega:6</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 205.5px;"><span>mega:5</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 215px;"><span>mega:4</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 224.5px;"><span>mega:3</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 234px;"><span>mega:2</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 243.5px;"><span>mega:1</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 253.5px;"><span>mega:0</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 266.5px;"><span>mega:14</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 276px;"><span>mega:15</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 285.5px;"><span>mega:16</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 295px;"><span>mega:17</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 304.5px;"><span>mega:18</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 314.5px;"><span>mega:19</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 324px;"><span>mega:20</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 5px; left: 333.5px;"><span>mega:21</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 4px; left: 357px;"><span>mega:5V.1</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 4px; left: 367px;"><span>mega:5V.2</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 13.5px; left: 357px;"><span>mega:22</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 13.5px; left: 367px;"><span>mega:23</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 23.25px; left: 357px;"><span>mega:24</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 23.25px; left: 367px;"><span>mega:25</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 32.75px; left: 357px;"><span>mega:26</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 32.75px; left: 367px;"><span>mega:27</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 42.25px; left: 357px;"><span>mega:28</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 42.25px; left: 367px;"><span>mega:29</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 52px; left: 357px;"><span>mega:30</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 52px; left: 367px;"><span>mega:31</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 61.5px; left: 357px;"><span>mega:32</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 61.5px; left: 367px;"><span>mega:33</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 71px; left: 357px;"><span>mega:34</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 71px; left: 367px;"><span>mega:35</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 80.5px; left: 357px;"><span>mega:36</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 80.5px; left: 367px;"><span>mega:37</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 90.25px; left: 357px;"><span>mega:38</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 90.25px; left: 367px;"><span>mega:39</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 99.75px; left: 357px;"><span>mega:40</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 99.75px; left: 367px;"><span>mega:41</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 109.5px; left: 357px;"><span>mega:42</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 109.5px; left: 367px;"><span>mega:43</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 119px; left: 357px;"><span>mega:44</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 119px; left: 367px;"><span>mega:45</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 128.75px; left: 357px;"><span>mega:46</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 128.75px; left: 367px;"><span>mega:47</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 138.25px; left: 357px;"><span>mega:48</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 138.25px; left: 367px;"><span>mega:49</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 148px; left: 357px;"><span>mega:50</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 148px; left: 367px;"><span>mega:51</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 157.5px; left: 357px;"><span>mega:52</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 157.5px; left: 367px;"><span>mega:53</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 167.25px; left: 357px;"><span>mega:GND.4</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 167.25px; left: 367px;"><span>mega:GND.5</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 132px;"><span>mega:IOREF</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 141.5px;"><span>mega:RESET</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 151px;"><span>mega:3.3V</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 160.5px;"><span>mega:5V</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 170.25px;"><span>mega:GND.2</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 179.75px;"><span>mega:GND.3</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 189.5px;"><span>mega:VIN</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 204.5px;"><span>mega:A0</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 214px;"><span>mega:A1</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 223.5px;"><span>mega:A2</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 233.25px;"><span>mega:A3</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 242.75px;"><span>mega:A4</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 252.25px;"><span>mega:A5</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 262px;"><span>mega:A6</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 271.5px;"><span>mega:A7</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 286.25px;"><span>mega:A8</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 296px;"><span>mega:A9</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 305.5px;"><span>mega:A10</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 315.25px;"><span>mega:A11</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 324.75px;"><span>mega:A12</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 334.5px;"><span>mega:A13</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 344px;"><span>mega:A14</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 180.5px; left: 353.75px;"><span>mega:A15</span></div><div class="react-draggable react-draggable-dragged" style=""><div class="diagram-part_marchingAnts__r5jWE" style="top: 251.42px; left: 96.32px; width: 85.625px; height: 65.2188px; transform: rotate(0deg);"></div><wokwi-mpu6050 class="diagram-part_diagramItem__IbJC1 diagram-part_active__0zZeg diagram-part_selectable__qT1rF" id="imu1" data-draggable="true" wokwi-controller="wokwi-mpu6050" style="top: 253.42px; left: 98.32px; transform: rotate(0deg); text-rendering: geometricprecision; user-select: none;" led1="true"><template shadowrootmode="open"><!---->
+      <svg width="21.6mm" height="16.2mm" clip-rule="evenodd" fill-rule="evenodd" version="1.1" viewBox="0 0 81.6 61.2" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="pin-pattern" height="2.1" width="14" patternUnits="userSpaceOnUse">
+            <path d=" m2.09 1.32c0.124 0 0.243-0.049 0.331-0.137 0.086-0.086 0.137-0.206 0.137-0.33v-0.387c0-0.124-0.050-0.242-0.137-0.33-0.087-0.087-0.207-0.137-0.331-0.137h-1.62v1.32z" fill="#f5f9f0"></path>
+          </pattern>
+        </defs>
+
+        <!-- Board -->
+        <path d="m81.6 0h-81.6v61.2h81.6zm-10 44.9c3.8 0 6.88 3.08 6.88 6.88 0 3.8-3.08 6.89-6.88 6.89-3.8 0-6.89-3.09-6.89-6.89 0-3.8 3.09-6.88 6.89-6.88zm-61.6 0c3.8 0 6.89 3.08 6.89 6.88 0 3.8-3.09 6.89-6.89 6.89-3.8 0-6.88-3.09-6.88-6.89 0-3.8 3.08-6.88 6.88-6.88zm-2.74-41.9c1.55 0 2.81 1.26 2.81 2.81s-1.26 2.8-2.81 2.8-2.8-1.26-2.8-2.8 1.26-2.81 2.8-2.81zm19.2 0c1.55 0 2.81 1.26 2.81 2.81s-1.26 2.8-2.81 2.8c-1.55 0-2.8-1.26-2.8-2.8s1.26-2.81 2.8-2.81zm-9.58 0c1.55 0 2.81 1.26 2.81 2.81s-1.26 2.8-2.81 2.8c-1.55 0-2.8-1.26-2.8-2.8s1.26-2.81 2.8-2.81zm19.2 0c1.55 0 2.81 1.26 2.81 2.81s-1.26 2.8-2.81 2.8c-1.55 0-2.8-1.26-2.8-2.8s1.26-2.81 2.8-2.81zm9.58 0c1.55 0 2.8 1.26 2.8 2.81s-1.26 2.8-2.8 2.8c-1.55 0-2.81-1.26-2.81-2.8s1.26-2.81 2.81-2.81zm19.2 0c1.55 0 2.8 1.26 2.8 2.81s-1.26 2.8-2.8 2.8-2.81-1.26-2.81-2.8 1.26-2.81 2.81-2.81zm-9.58 0c1.55 0 2.8 1.26 2.8 2.81s-1.26 2.8-2.8 2.8c-1.55 0-2.81-1.26-2.81-2.8s1.26-2.81 2.81-2.81zm19.2 0c1.55 0 2.8 1.26 2.8 2.81s-1.26 2.8-2.8 2.8c-1.55 0-2.81-1.26-2.81-2.8s1.26-2.81 2.81-2.81z" fill="#16619d"></path>
+
+        <!-- Right Chip -->
+        <g fill="#fefdf4">
+          <rect x="74.5" y="23.1" width="2.01" height="4.81"></rect>
+          <rect x="67.8" y="33" width="2.01" height="4.81"></rect>
+          <rect x="71.2" y="23.1" width="2.01" height="4.81"></rect>
+          <rect x="67.8" y="23.1" width="2.01" height="4.81"></rect>
+          <rect x="74.5" y="33" width="2.01" height="4.81"></rect>
+        </g>
+        <g fill="#31322e">
+          <rect x="74.5" y="25.5" width="2.01" height="2.4"></rect>
+          <rect x="67.8" y="33" width="2.01" height="2.4"></rect>
+          <rect x="71.2" y="25.5" width="2.01" height="2.4"></rect>
+          <rect x="67.8" y="25.5" width="2.01" height="2.4"></rect>
+          <rect x="74.5" y="33" width="2.01" height="2.4"></rect>
+        </g>
+
+        <!-- Resistors -->
+        <g fill="#e5e5e5">
+          <rect x="12" y="21.3" width="3.83" height="9.3"></rect>
+          <rect x="17.7" y="21.3" width="3.83" height="9.3"></rect>
+          <rect x="56.5" y="21.3" width="3.83" height="9.3"></rect>
+          <rect x="51.2" y="21.3" width="3.83" height="9.3"></rect>
+          <rect x="17.7" y="35.6" width="3.83" height="9.3"></rect>
+          <rect x="23.3" y="21.3" width="3.83" height="9.3"></rect>
+          <rect x="62.2" y="21.3" width="3.83" height="9.3"></rect>
+          <rect x="51.2" y="35.8" width="3.83" height="9.3"></rect>
+          <rect x="56.9" y="35.8" width="3.83" height="9.3"></rect>
+        </g>
+        <path d="m76 42.6v-3.13h-7.59v3.13z" fill="#fefdf4"></path>
+        <rect x="23.1" y="35.6" width="3.83" height="9.3" fill="#e5e5e5"></rect>
+
+        <g fill="#26232b">
+          <rect x="17.7" y="23.4" width="3.83" height="5.31"></rect>
+          <rect x="56.5" y="23.4" width="3.83" height="5.31"></rect>
+          <rect x="51.2" y="23.4" width="3.83" height="5.31"></rect>
+          <rect x="17.7" y="37.7" width="3.83" height="5.31"></rect>
+        </g>
+        <g fill="#d8c18d">
+          <rect x="23.3" y="23.4" width="3.83" height="5.31"></rect>
+          <rect x="62.2" y="23.4" width="3.83" height="5.31"></rect>
+          <rect x="51.2" y="37.8" width="3.83" height="5.31"></rect>
+          <rect x="56.9" y="37.8" width="3.83" height="5.31"></rect>
+          <path d="m74.3 42.6v-3.13h-4.33v3.13z"></path>
+        </g>
+        <g>
+          <rect x="23.1" y="37.7" width="3.83" height="5.31" fill="#a06352"></rect>
+          <rect x="31.8" y="47.1" width="15.6" height="6.03" fill="#f3c338"></rect>
+          <rect x="67.3" y="27.9" width="9.76" height="5.28" fill="#010303"></rect>
+        </g>
+
+        <!-- MPU6050 Chip -->
+        <rect transform="translate(47,26)" width="5" height="14.5" fill="url(#pin-pattern)"></rect>
+        <rect transform="translate(32.3,40) rotate(180)" width="5" height="14.5" fill="url(#pin-pattern)"></rect>
+        <rect transform="translate(46.5,40.7) rotate(90)" width="5" height="14.5" fill="url(#pin-pattern)"></rect>
+        <rect transform="translate(32.3,26) rotate(270)" width="5" height="14.5" fill="url(#pin-pattern)"></rect>
+        <rect x="31.8" y="25.4" width="15.6" height="15.6"></rect>
+
+        <!-- LED -->
+        <rect x="12" y="23.4" width="3.83" height="5.31" fill="#f5ecde"></rect>
+        <filter id="ledFilter" x="-0.8" y="-0.8" height="5.2" width="5.8">
+          <fegaussianblur stdDeviation="2"></fegaussianblur>
+        </filter>
+        <!--?lit$400228564$--><circle cx="13.9" cy="25.5" r="3.5" fill="#80ff80" filter="url(#ledFilter)"></circle>
+
+        <!-- PCB Pins-->
+        <g fill="none" stroke="#d0ae88" stroke-width=".648px">
+          <circle cx="64.8" cy="5.78" r="2.81"></circle>
+          <circle cx="55.2" cy="5.78" r="2.81"></circle>
+          <circle cx="45.6" cy="5.78" r="2.81"></circle>
+          <circle cx="36" cy="5.78" r="2.81"></circle>
+          <circle cx="26.4" cy="5.78" r="2.81"></circle>
+          <circle cx="16.9" cy="5.78" r="2.81"></circle>
+          <circle cx="7.28" cy="5.78" r="2.81"></circle>
+          <circle cx="74.4" cy="5.78" r="2.81"></circle>
+        </g>
+
+        <!-- Text -->
+        <text transform="rotate(90)" fill="#ffffff" font-family="sans-serif" font-size="3.6px" x="10.056">
+          <tspan x="10.056" y="-6">INT</tspan>
+          <tspan x="10.056" y="-15.5">AD0</tspan>
+          <tspan x="10.056" y="-25.157">XCL</tspan>
+          <tspan x="10.056" y="-34.5">XDA</tspan>
+          <tspan x="10.056" y="-44.38">SDA</tspan>
+          <tspan x="9.911" y="-54">SCL</tspan>
+          <tspan x="10.057" y="-63.54">GND</tspan>
+          <tspan x="10.057" y="-73">VCC</tspan>
+        </text>
+      </svg>
+    </template></wokwi-mpu6050></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 101.6px;"><span>imu1:INT</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 111.22px;"><span>imu1:AD0</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 120.72px;"><span>imu1:XCL</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 130.32px;"><span>imu1:XDA</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 139.92px;"><span>imu1:SDA</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 149.52px;"><span>imu1:SCL</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 159.12px;"><span>imu1:GND</span></div><div data-draggable="0" class="diagram-part-pins_pinOverlay__3Rj48" style="top: 255.2px; left: 168.72px;"><span>imu1:VCC</span></div><svg class="diagram-editor_connections__K6X2M" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" viewBox="72 -9 138 286.2" width="138" height="286.2" style="left: 72px; top: -9px;"><g><path d="M172.72,259.2L172.72,188.5A4,4,-90,0,0,168.72,184.5L164.5,184.5" class="diagram-wires_outline__33OH_"></path><path stroke="red" d="M172.72,259.2L172.72,188.5A4,4,-90,0,0,168.72,184.5L164.5,184.5"></path></g><g><path d="M163.12,259.2L163.12,224.8A4,4,90,0,1,167.12,220.8L179.75,220.8A4,4,270,0,0,183.75,216.8L183.75,184.5" class="diagram-wires_outline__33OH_"></path><path stroke="black" d="M163.12,259.2L163.12,224.8A4,4,90,0,1,167.12,220.8L179.75,220.8A4,4,270,0,0,183.75,216.8L183.75,184.5"></path></g><g><path d="M153.52,259.2L153.52,109.6A4,4,-90,0,0,149.52,105.6L94,105.6A4,4,90,0,1,90,101.6L90,9" class="diagram-wires_outline__33OH_"></path><path stroke="green" d="M153.52,259.2L153.52,109.6A4,4,-90,0,0,149.52,105.6L94,105.6A4,4,90,0,1,90,101.6L90,9"></path></g><g><path d="M143.92,259.2L143.92,234.4A4,4,-90,0,0,139.92,230.4L104,230.4A4,4,90,0,1,100,226.4L99.99999999999999,9" class="diagram-wires_outline__33OH_"></path><path stroke="green" d="M143.92,259.2L143.92,234.4A4,4,-90,0,0,139.92,230.4L104,230.4A4,4,90,0,1,100,226.4L99.99999999999999,9"></path></g></svg></div></div></div><div class="MuiBox-root css-340jld"><div class=" css-hnm13h"></div><div class="MuiBox-root css-18a4ofi" id="simple-tabpanel-0" aria-labelledby="simple-tab-0" role="tabpanel"><div class="serial-monitor_serialMonitor__QobyT"><div class="serial-monitor_monitorContainer__L2dnu"><pre class="notranslate">Adafruit MPU6050 test!
+MPU6050 Found!
+Accelerometer range set to: +-8G
+Gyro range set to: +- 500 deg/s
+Filter bandwidth set to: 21 Hz
+
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+It is Terrian -B, Go slow
+0.00	0.00	9.81	0.00	0.00	0.00
+</pre></div><div class="serial-monitor_serialControls__ZApdN"><input><button title="Serial plotter" class=""><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M16,11.78L20.24,4.45L21.97,5.45L16.74,14.5L10.23,10.75L5.46,19H22V21H2V3H4V17.54L9.5,8L16,11.78Z" style="fill: currentcolor;"></path></svg></button><button title="Auto scroll"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M14,19H18V5H14M6,19H10V5H6V19Z" style="fill: currentcolor;"></path></svg></button><button><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M9,3V4H4V6H5V19A2,2 0 0,0 7,21H17A2,2 0 0,0 19,19V6H20V4H15V3H9M9,8H11V17H9V8M13,8H15V17H13V8Z" style="fill: currentcolor;"></path></svg></button></div></div></div></div></div><style>
+        .markdown-body {
+          background: #eee;
+          color: black;
+          overflow: auto; /* Enable scrolling */
+          padding: 1.5em;
+          min-height: 100%;
+        }
+        .markdown-body.dark {
+          background: #111;
+          color: inherit;
+        }
+        .markdown-body.dark a {
+          color: #88f;
+        }
+        .markdown-body.dark pre {
+          background: #333;
+        }
+
+        .markdown-body::-webkit-scrollbar {
+          height: 16px;
+          width: 16px;
+        }
+
+        .markdown-body::-webkit-scrollbar-thumb,
+        .markdown-body::-webkit-scrollbar-track {
+          border: 4px solid transparent;
+          border-radius: 8px;
+          background-clip: padding-box;
+        }
+
+        .markdown-body::-webkit-scrollbar-thumb {
+          min-height: 40px;
+        }
+        .markdown-body.dark::-webkit-scrollbar-thumb {
+          background-color: #3d3a3a;
+        }
+
+        .markdown-body::-webkit-scrollbar-track {
+          margin-bottom: 8px;
+        }
+        .markdown-body.dark::-webkit-scrollbar-track {
+          background-color: #2a2a2a;
+        }
+
+        .markdown-body.dark table {
+          color: black;
+        }
+      </style></div></div></div></div></div></main></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"p":{"name":"Corizo_Major_proj Copy","id":"397025574233890817","files":[{"name":"sketch.ino","content":"#include \u003cAdafruit_MPU6050.h\u003e\n#include \u003cAdafruit_Sensor.h\u003e\n#include \u003cWire.h\u003e\n\n#define IN1_1 13 // Enable pin for motor 1 (left wheel 1)\n#define IN2_1 12 // Direction pin 1 for motor 1\n#define IN3_1 11 // Direction pin 2 for motor 1\n#define IN1_2 8 // Enable pin for motor 2 (left wheel 2)\n#define IN2_2 10 // Direction pin 1 for motor 2\n#define IN3_2 9 // Direction pin 2 for motor 2\n\n#define IN1_3 7  // Enable pin for motor 3 (right wheel 1)\n#define IN2_3 6 // Direction pin 1 for motor 3\n#define IN3_3 5 // Direction pin 2 for motor 3\n#define IN1_4 2 // Enable pin for motor 4 (right wheel 2)\n#define IN2_4 4   // Direction pin 1 for motor 4\n#define IN3_4 3  // Direction pin 2 for motor 4\n\nAdafruit_MPU6050 mpu;\n\nint motorSpeed = 240; \n\nvoid setup() {\n  pinMode(IN1_1, OUTPUT);\n  pinMode(IN2_1, OUTPUT);\n  pinMode(IN3_1, OUTPUT);\n  pinMode(IN1_2, OUTPUT);\n  pinMode(IN2_2, OUTPUT);\n  pinMode(IN3_2, OUTPUT);\n\n  pinMode(IN1_3, OUTPUT);\n  pinMode(IN2_3, OUTPUT);\n  pinMode(IN3_3, OUTPUT);\n  pinMode(IN1_4, OUTPUT);\n  pinMode(IN2_4, OUTPUT);\n  pinMode(IN3_4, OUTPUT);\n\n  Serial.begin(115200);\n  while (!Serial)\n    delay(10); \n\n  Serial.println(\"Adafruit MPU6050 test!\");\n\n  if (!mpu.begin()) {\n    Serial.println(\"Failed to find MPU6050 chip\");\n    while (1) {\n      delay(10);\n    }\n  }\n  Serial.println(\"MPU6050 Found!\");\n\n  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);\n  Serial.print(\"Accelerometer range set to: \");\n  switch (mpu.getAccelerometerRange()) {\n  case MPU6050_RANGE_2_G:\n    Serial.println(\"+-2G\");\n    break;\n  case MPU6050_RANGE_4_G:\n    Serial.println(\"+-4G\");\n    break;\n  case MPU6050_RANGE_8_G:\n    Serial.println(\"+-8G\");\n    break;\n  case MPU6050_RANGE_16_G:\n    Serial.println(\"+-16G\");\n    break;\n  }\n  mpu.setGyroRange(MPU6050_RANGE_500_DEG);\n  Serial.print(\"Gyro range set to: \");\n  switch (mpu.getGyroRange()) {\n  case MPU6050_RANGE_250_DEG:\n    Serial.println(\"+- 250 deg/s\");\n    break;\n  case MPU6050_RANGE_500_DEG:\n    Serial.println(\"+- 500 deg/s\");\n    break;\n  case MPU6050_RANGE_1000_DEG:\n    Serial.println(\"+- 1000 deg/s\");\n    break;\n  case MPU6050_RANGE_2000_DEG:\n    Serial.println(\"+- 2000 deg/s\");\n    break;\n  }\n\n  mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);\n  Serial.print(\"Filter bandwidth set to: \");\n  switch (mpu.getFilterBandwidth()) {\n  case MPU6050_BAND_260_HZ:\n    Serial.println(\"260 Hz\");\n    break;\n  case MPU6050_BAND_184_HZ:\n    Serial.println(\"184 Hz\");\n    break;\n  case MPU6050_BAND_94_HZ:\n    Serial.println(\"94 Hz\");\n    break;\n  case MPU6050_BAND_44_HZ:\n    Serial.println(\"44 Hz\");\n    break;\n  case MPU6050_BAND_21_HZ:\n    Serial.println(\"21 Hz\");\n    break;\n  case MPU6050_BAND_10_HZ:\n    Serial.println(\"10 Hz\");\n    break;\n  case MPU6050_BAND_5_HZ:\n    Serial.println(\"5 Hz\");\n    break;\n  }\n\n  Serial.println(\"\");\n  delay(100);\n\n}\n\nvoid loop() {\n   sensors_event_t a, g, temp;\n  mpu.getEvent(\u0026a, \u0026g, \u0026temp);\n  if (a.acceleration.x\u003c2 \u0026\u0026 a.acceleration.y\u003c2 \u0026\u0026 a.acceleration.z\u003c4){\n  Serial.println(\"It is terrian - A, Go fast\");\n  digitalWrite(IN1_1, HIGH);  // Enable motor 1 (left wheel 1)\n  digitalWrite(IN2_1, LOW);   // Forward direction for motor 1\n  digitalWrite(IN3_1, HIGH);  // Forward direction for motor 1\n\n  digitalWrite(IN1_2, HIGH);  // Enable motor 2 (left wheel 2)\n  digitalWrite(IN2_2, LOW);   // Forward direction for motor 2\n  digitalWrite(IN3_2, HIGH);  // Forward direction for motor 2\n\n  digitalWrite(IN1_3, HIGH);  // Enable motor 3 (right wheel 1)\n  digitalWrite(IN2_3, LOW);   // Forward direction for motor 3\n  digitalWrite(IN3_3, HIGH);  // Forward direction for motor 3\n\n  digitalWrite(IN1_4, HIGH);  // Enable motor 4 (right wheel 2)\n  digitalWrite(IN2_4, LOW);   // Forward direction for motor 4\n  digitalWrite(IN3_4, HIGH);  // Forward direction for motor 4\n\n  analogWrite(IN1_1, 255); \n  analogWrite(IN1_2, 255); \n  analogWrite(IN1_3, 255); \n  analogWrite(IN1_4, 255); \n  }\n  else(){\n    Serial.println(\"It is Terrian -B, Go slow\")\n    digitalWrite(IN1_1, HIGH);  // Enable motor 1 (left wheel 1)\n  digitalWrite(IN2_1, LOW);   // Forward direction for motor 1\n  digitalWrite(IN3_1, HIGH);  // Forward direction for motor 1\n\n  digitalWrite(IN1_2, HIGH);  // Enable motor 2 (left wheel 2)\n  digitalWrite(IN2_2, LOW);   // Forward direction for motor 2\n  digitalWrite(IN3_2, HIGH);  // Forward direction for motor 2\n\n  digitalWrite(IN1_3, HIGH);  // Enable motor 3 (right wheel 1)\n  digitalWrite(IN2_3, LOW);   // Forward direction for motor 3\n  digitalWrite(IN3_3, HIGH);  // Forward direction for motor 3\n\n  digitalWrite(IN1_4, HIGH);  // Enable motor 4 (right wheel 2)\n  digitalWrite(IN2_4, LOW);   // Forward direction for motor 4\n  digitalWrite(IN3_4, HIGH);  // Forward direction for motor 4\n\n  analogWrite(IN1_1, 150); \n  analogWrite(IN1_2, 150); \n  analogWrite(IN1_3, 150); \n  analogWrite(IN1_4, 150);\n  }\n  Serial.print(a.acceleration.x);\n  Serial.print('\\t');\n  Serial.print(a.acceleration.y);\n  Serial.print('\\t');\n  Serial.print(a.acceleration.z);  \n  Serial.print('\\t');\n  Serial.print(g.gyro.x);  \n  Serial.print('\\t');\n  Serial.print(g.gyro.y);\n  Serial.print('\\t');\n  Serial.print(g.gyro.z);\n  Serial.println(\"\");\n  delay(500);\n\n\n}"},{"name":"diagram.json","content":"{\n  \"version\": 1,\n  \"author\": \"Anonymous maker\",\n  \"editor\": \"wokwi\",\n  \"parts\": [\n    { \"type\": \"wokwi-arduino-mega\", \"id\": \"mega\", \"top\": 0, \"left\": 0, \"attrs\": {} },\n    { \"type\": \"wokwi-mpu6050\", \"id\": \"imu1\", \"top\": 253.42, \"left\": 98.32, \"attrs\": {} }\n  ],\n  \"connections\": [\n    [ \"imu1:VCC\", \"mega:5V\", \"red\", [ \"v0\" ] ],\n    [ \"imu1:GND\", \"mega:GND.3\", \"black\", [ \"v-38.4\", \"h28.88\" ] ],\n    [ \"imu1:SCL\", \"mega:SCL\", \"green\", [ \"v-153.6\", \"h-57.52\" ] ],\n    [ \"imu1:SDA\", \"mega:SDA\", \"green\", [ \"v-28.8\", \"h-28.72\" ] ]\n  ],\n  \"dependencies\": {}\n}"},{"name":"libraries.txt","content":"# Wokwi Library List\n# See https://docs.wokwi.com/guides/libraries\n\nAdafruit MPU6050\n"}],"serverFiles":[],"owner":"397025562563234817","locked":false,"unlisted":false,"updated":1714891943090,"hearts":0,"userLiked":false}},"__N_SSP":true},"page":"/projects/[projectId]","query":{"projectId":"397025574233890817"},"buildId":"T1nimv_L-ZuyQSYwVUI5h","runtimeConfig":{"PADDLE_SANDBOX":"0"},"isFallback":false,"isExperimentalCompile":false,"gssp":true,"scriptLoader":[]}</script><script defer="" src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/vedd3670a3b1c4e178fdfb0cc912d969e1713874337387" integrity="sha512-EzCudv2gYygrCcVhu65FkAxclf3mYM6BCwiGUm6BEuLzSb5ulVhgokzCZED7yMIkzYVg65mxfIBNdNra5ZFNyQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;87fa25b1cb25801f&quot;,&quot;version&quot;:&quot;2024.4.1&quot;,&quot;token&quot;:&quot;c99f757ebc0f4b1faa48d9a5210dd113&quot;}" crossorigin="anonymous"></script>
+<script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/loader.js.download"></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/js" data-nscript="afterInteractive"></script><script id="google-analytics" data-nscript="afterInteractive">
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-150413053-5');
+        </script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/7448-a970ff9a039c5b6c.js.download"></script><script src="./Corizo_Major_proj Copy - Wokwi ESP32, STM32, Arduino Simulator_files/index-7112ae727fbff1a3.js.download"></script><div class="context-view" aria-hidden="true" style="display: none;"></div><div class="monaco-aria-container"><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-status" aria-live="polite" aria-atomic="true"></div><div class="monaco-status" aria-live="polite" aria-atomic="true"></div></div></body></html>
